@@ -3,57 +3,57 @@
   "seeds": [
     {
       "id": "saizeriya",
-      "contentVersion": 5,
+      "contentVersion": 6,
       "path": "saizeriya.json"
     },
     {
       "id": "mcdonalds",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "path": "mcdonalds.json"
     },
     {
       "id": "fifty_lan",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "path": "fifty_lan.json"
     },
     {
       "id": "mos_burger",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "path": "mos_burger.json"
     },
     {
       "id": "kfc",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "path": "kfc.json"
     },
     {
       "id": "starbucks",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "path": "starbucks.json"
     },
     {
       "id": "louisa",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "path": "louisa.json"
     },
     {
       "id": "milksha",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "path": "milksha.json"
     },
     {
       "id": "chingshin",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "path": "chingshin.json"
     },
     {
       "id": "formosa_chang",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "path": "formosa_chang.json"
     },
     {
       "id": "bafang",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "path": "bafang.json"
     }
   ]
