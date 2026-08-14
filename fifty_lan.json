@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "contentVersion": 2,
+  "contentVersion": 3,
   "id": "fifty_lan",
   "name": "50嵐",
   "mark": "🧋",
@@ -47,7 +47,9 @@
           "id": "fifty_lan.tea.kumquat_green",
           "name": "桔子綠",
           "price": 60,
-          "regions": ["north"]
+          "regions": [
+            "north"
+          ]
         },
         {
           "id": "fifty_lan.tea.eight_ice_green",
@@ -78,19 +80,27 @@
           "id": "fifty_lan.tea.coconut_tea",
           "name": "椰果紅/綠",
           "price": 45,
-          "regions": ["central"]
+          "regions": [
+            "central"
+          ]
         },
         {
           "id": "fifty_lan.tea.light_lemon_tea",
           "name": "微檸檬紅/青",
           "price": 45,
-          "regions": ["central", "tainan", "kaoping"]
+          "regions": [
+            "central",
+            "tainan",
+            "kaoping"
+          ]
         },
         {
           "id": "fifty_lan.tea.oat_tea",
           "name": "燕麥紅/綠/青",
           "price": 45,
-          "regions": ["central"]
+          "regions": [
+            "central"
+          ]
         }
       ]
     },
@@ -102,7 +112,10 @@
           "id": "fifty_lan.texture.four_season_no1",
           "name": "四季春珍波椰(1號)",
           "price": 50,
-          "regions": ["north", "kaoping"]
+          "regions": [
+            "north",
+            "kaoping"
+          ]
         },
         {
           "id": "fifty_lan.texture.boba_tea",
@@ -118,19 +131,25 @@
           "id": "fifty_lan.texture.boba_milk_green",
           "name": "波霸奶綠",
           "price": 60,
-          "regions": ["north"]
+          "regions": [
+            "north"
+          ]
         },
         {
           "id": "fifty_lan.texture.boba_oolong_milk_tea",
           "name": "波霸烏龍奶茶",
           "price": 60,
-          "regions": ["north"]
+          "regions": [
+            "north"
+          ]
         },
         {
           "id": "fifty_lan.texture.pearl_tea",
           "name": "珍珠紅/綠/青/烏",
           "price": 50,
-          "regions": ["north"]
+          "regions": [
+            "north"
+          ]
         },
         {
           "id": "fifty_lan.texture.pearl_milk_tea",
@@ -141,25 +160,36 @@
           "id": "fifty_lan.texture.pearl_milk_green",
           "name": "珍珠奶綠",
           "price": 60,
-          "regions": ["north"]
+          "regions": [
+            "north"
+          ]
         },
         {
           "id": "fifty_lan.texture.coconut_milk_tea",
           "name": "椰果奶茶",
           "price": 60,
-          "regions": ["north", "central", "kaoping"]
+          "regions": [
+            "north",
+            "central",
+            "kaoping"
+          ]
         },
         {
           "id": "fifty_lan.texture.pudding_milk_tea",
           "name": "布丁奶茶/奶綠",
           "price": 75,
-          "regions": ["north", "central"]
+          "regions": [
+            "north",
+            "central"
+          ]
         },
         {
           "id": "fifty_lan.texture.pudding_tea",
           "name": "布丁紅/綠/青/烏",
           "price": 60,
-          "regions": ["north"]
+          "regions": [
+            "north"
+          ]
         }
       ]
     },
@@ -181,25 +211,35 @@
           "id": "fifty_lan.milk_tea.black_tea_macchiato",
           "name": "紅茶瑪奇朵",
           "price": 60,
-          "regions": ["north", "central"]
+          "regions": [
+            "north",
+            "central"
+          ]
         },
         {
           "id": "fifty_lan.milk_tea.oolong_macchiato",
           "name": "烏龍瑪奇朵",
           "price": 60,
-          "regions": ["north", "central"]
+          "regions": [
+            "north",
+            "central"
+          ]
         },
         {
           "id": "fifty_lan.milk_tea.four_season_milk",
           "name": "四季奶青",
           "price": 60,
-          "regions": ["north"]
+          "regions": [
+            "north"
+          ]
         },
         {
           "id": "fifty_lan.milk_tea.golden_oolong_milk",
           "name": "黃金烏龍奶茶",
           "price": 60,
-          "regions": ["north"]
+          "regions": [
+            "north"
+          ]
         },
         {
           "id": "fifty_lan.milk_tea.ovaltine",
@@ -210,37 +250,55 @@
           "id": "fifty_lan.milk_tea.oolong_milk",
           "name": "烏龍奶",
           "price": 55,
-          "regions": ["central", "tainan", "kaoping"]
+          "regions": [
+            "central",
+            "tainan",
+            "kaoping"
+          ]
         },
         {
           "id": "fifty_lan.milk_tea.oat_milk_tea",
           "name": "燕麥奶茶",
           "price": 55,
-          "regions": ["central", "tainan", "kaoping"]
+          "regions": [
+            "central",
+            "tainan",
+            "kaoping"
+          ]
         },
         {
           "id": "fifty_lan.milk_tea.oat_oolong_milk",
           "name": "燕麥烏龍奶",
           "price": 55,
-          "regions": ["central"]
+          "regions": [
+            "central"
+          ]
         },
         {
           "id": "fifty_lan.milk_tea.ice_cream_milk_tea",
           "name": "冰淇淋奶茶",
           "price": 65,
-          "regions": ["central", "tainan", "kaoping"]
+          "regions": [
+            "central",
+            "tainan",
+            "kaoping"
+          ]
         },
         {
           "id": "fifty_lan.milk_tea.oat_ovaltine",
           "name": "燕麥阿華田",
           "price": 60,
-          "regions": ["central"]
+          "regions": [
+            "central"
+          ]
         },
         {
           "id": "fifty_lan.milk_tea.cocoa_ballet",
           "name": "可可芭蕾",
           "price": 65,
-          "regions": ["central"]
+          "regions": [
+            "central"
+          ]
         }
       ]
     },
@@ -282,7 +340,9 @@
           "id": "fifty_lan.fresh.fresh_pomelo_juice",
           "name": "鮮柚汁",
           "price": 75,
-          "regions": ["north"]
+          "regions": [
+            "north"
+          ]
         },
         {
           "id": "fifty_lan.fresh.grapefruit_yakult",
@@ -293,13 +353,17 @@
           "id": "fifty_lan.fresh.grapefruit_juice",
           "name": "葡萄柚汁",
           "price": 65,
-          "regions": ["central", "tainan", "kaoping"]
+          "regions": [
+            "central",
+            "tainan",
+            "kaoping"
+          ]
         }
       ]
     },
     {
       "id": "latte",
-      "name": "紅茶拿鐵",
+      "name": "找拿鐵",
       "items": [
         {
           "id": "fifty_lan.latte.black_tea",
@@ -310,13 +374,20 @@
           "id": "fifty_lan.latte.green_tea",
           "name": "綠茶拿鐵",
           "price": 75,
-          "regions": ["north", "central"]
+          "regions": [
+            "north",
+            "central"
+          ]
         },
         {
           "id": "fifty_lan.latte.golden_oolong",
           "name": "黃金烏龍拿鐵",
           "price": 75,
-          "regions": ["north", "central", "tainan"]
+          "regions": [
+            "north",
+            "central",
+            "tainan"
+          ]
         },
         {
           "id": "fifty_lan.latte.ovaltine",
@@ -327,37 +398,57 @@
           "id": "fifty_lan.latte.pearl_black_tea",
           "name": "珍珠紅茶拿鐵",
           "price": 65,
-          "regions": ["central", "tainan", "kaoping"]
+          "regions": [
+            "central",
+            "tainan",
+            "kaoping"
+          ]
         },
         {
           "id": "fifty_lan.latte.boba_black_tea",
           "name": "波霸紅茶拿鐵",
           "price": 65,
-          "regions": ["central", "tainan", "kaoping"]
+          "regions": [
+            "central",
+            "tainan",
+            "kaoping"
+          ]
         },
         {
           "id": "fifty_lan.latte.oat_black_tea",
           "name": "燕麥紅茶拿鐵",
           "price": 65,
-          "regions": ["central", "tainan", "kaoping"]
+          "regions": [
+            "central",
+            "tainan",
+            "kaoping"
+          ]
         },
         {
           "id": "fifty_lan.latte.pudding_black_tea",
           "name": "布丁紅茶拿鐵",
           "price": 75,
-          "regions": ["central"]
+          "regions": [
+            "central"
+          ]
         },
         {
           "id": "fifty_lan.latte.ice_cream_black_tea",
           "name": "冰淇淋紅茶拿鐵",
           "price": 75,
-          "regions": ["central", "tainan", "kaoping"]
+          "regions": [
+            "central",
+            "tainan",
+            "kaoping"
+          ]
         },
         {
           "id": "fifty_lan.latte.coconut_black_tea",
           "name": "椰果紅茶拿鐵",
           "price": 65,
-          "regions": ["kaoping"]
+          "regions": [
+            "kaoping"
+          ]
         }
       ]
     },
@@ -374,13 +465,21 @@
           "id": "fifty_lan.ice_cream.mango_green",
           "name": "芒果青",
           "price": 60,
-          "regions": ["north", "tainan", "kaoping"]
+          "regions": [
+            "north",
+            "tainan",
+            "kaoping"
+          ]
         },
         {
           "id": "fifty_lan.ice_cream.lychee_oolong",
           "name": "荔枝烏龍",
           "price": 60,
-          "regions": ["north", "tainan", "kaoping"]
+          "regions": [
+            "north",
+            "tainan",
+            "kaoping"
+          ]
         }
       ]
     },
@@ -392,35 +491,45 @@
           "id": "fifty_lan.seasonal.honey_tea",
           "name": "蜂蜜紅/綠",
           "price": 55,
-          "regions": ["central"],
+          "regions": [
+            "central"
+          ],
           "availability": "limited"
         },
         {
           "id": "fifty_lan.seasonal.honey_milk_tea",
           "name": "蜂蜜奶茶",
           "price": 65,
-          "regions": ["central"],
+          "regions": [
+            "central"
+          ],
           "availability": "limited"
         },
         {
           "id": "fifty_lan.seasonal.grapefruit_honey",
           "name": "葡萄柚蜜",
           "price": 75,
-          "regions": ["central"],
+          "regions": [
+            "central"
+          ],
           "availability": "limited"
         },
         {
           "id": "fifty_lan.seasonal.lemon_honey",
           "name": "檸檬蜜",
           "price": 75,
-          "regions": ["central"],
+          "regions": [
+            "central"
+          ],
           "availability": "limited"
         },
         {
           "id": "fifty_lan.seasonal.kumquat_lemon_honey",
           "name": "金桔檸檬蜜",
           "price": 75,
-          "regions": ["central"],
+          "regions": [
+            "central"
+          ],
           "availability": "limited"
         }
       ]
