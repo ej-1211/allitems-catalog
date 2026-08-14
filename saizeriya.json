@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "contentVersion": 3,
+  "contentVersion": 4,
   "id": "saizeriya",
   "name": "薩莉亞",
   "mark": "🍝",
@@ -54,6 +54,11 @@
           "name": "涼拌章魚",
           "price": 89,
           "availability": "delisted"
+        },
+        {
+          "id": "saizeriya.appetizer.caprese",
+          "name": "卡布里沙拉",
+          "price": 109
         }
       ]
     },
