@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "contentVersion": 6,
+  "contentVersion": 8,
   "id": "saizeriya",
   "name": "薩莉亞",
   "mark": "🍝",
@@ -8,6 +8,7 @@
     "light": "#1B7A3E",
     "dark": "#3FBF6E"
   },
+  "priceNote": "價格為單點、隨時買得到的最低價（多種份量取最小份）。",
   "categories": [
     {
       "id": "salad",

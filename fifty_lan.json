@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "contentVersion": 3,
+  "contentVersion": 4,
   "id": "fifty_lan",
   "name": "50嵐",
   "mark": "🧋",
@@ -8,6 +8,7 @@
     "light": "#0E6B4F",
     "dark": "#35C79A"
   },
+  "priceNote": "價格為大杯（L）的北部價。中南部與部分門市不同。",
   "categories": [
     {
       "id": "tea",

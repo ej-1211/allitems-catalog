@@ -3,17 +3,17 @@
   "seeds": [
     {
       "id": "saizeriya",
-      "contentVersion": 6,
+      "contentVersion": 8,
       "path": "saizeriya.json"
     },
     {
       "id": "mcdonalds",
-      "contentVersion": 2,
+      "contentVersion": 3,
       "path": "mcdonalds.json"
     },
     {
       "id": "fifty_lan",
-      "contentVersion": 3,
+      "contentVersion": 4,
       "path": "fifty_lan.json"
     },
     {
