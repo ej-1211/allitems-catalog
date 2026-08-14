@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "contentVersion": 1,
+  "contentVersion": 2,
   "id": "saizeriya",
   "name": "薩莉亞",
   "mark": "🍝",
@@ -16,7 +16,7 @@
         {
           "id": "saizeriya.appetizer.small_salad",
           "name": "小沙拉",
-          "price": 49
+          "price": 52
         },
         {
           "id": "saizeriya.appetizer.garden_salad",
