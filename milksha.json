@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 3,
+  "contentVersion": 1,
+  "id": "milksha",
+  "name": "迷客夏",
+  "mark": "🥤",
+  "tint": {
+    "light": "#0E7490",
+    "dark": "#22D3EE"
+  },
+  "categories": [
+    {
+      "id": "fresh_milk",
+      "name": "鮮奶茶",
+      "items": [
+        {
+          "id": "milksha.fresh_milk.earl_grey_milk",
+          "name": "伯爵鮮奶茶",
+          "price": 65,
+          "note": "招牌"
+        },
+        {
+          "id": "milksha.fresh_milk.assam_milk",
+          "name": "阿薩姆鮮奶茶",
+          "price": 60
+        },
+        {
+          "id": "milksha.fresh_milk.jasmine_milk",
+          "name": "茉莉鮮奶茶",
+          "price": 60
+        },
+        {
+          "id": "milksha.fresh_milk.oolong_milk",
+          "name": "烏龍鮮奶茶",
+          "price": 65
+        },
+        {
+          "id": "milksha.fresh_milk.black_sugar_milk",
+          "name": "黑糖鮮奶",
+          "price": 70
+        },
+        {
+          "id": "milksha.fresh_milk.brown_sugar_pearl",
+          "name": "黑糖珍珠鮮奶",
+          "price": 75
+        },
+        {
+          "id": "milksha.fresh_milk.matcha_milk",
+          "name": "抹茶鮮奶",
+          "price": 75
+        },
+        {
+          "id": "milksha.fresh_milk.taro_milk",
+          "name": "芋頭鮮奶",
+          "price": 80
+        },
+        {
+          "id": "milksha.fresh_milk.chocolate_milk",
+          "name": "巧克力鮮奶",
+          "price": 70
+        },
+        {
+          "id": "milksha.fresh_milk.charcoal_milk",
+          "name": "炭焙鮮奶茶",
+          "price": 70
+        },
+        {
+          "id": "milksha.fresh_milk.honey_milk",
+          "name": "蜂蜜鮮奶茶",
+          "price": 70
+        }
+      ]
+    },
+    {
+      "id": "tea",
+      "name": "純茶",
+      "items": [
+        {
+          "id": "milksha.tea.jasmine_green",
+          "name": "茉莉綠茶",
+          "price": 35
+        },
+        {
+          "id": "milksha.tea.assam_black",
+          "name": "阿薩姆紅茶",
+          "price": 35
+        },
+        {
+          "id": "milksha.tea.four_season",
+          "name": "四季春",
+          "price": 35
+        },
+        {
+          "id": "milksha.tea.golden_oolong",
+          "name": "黃金烏龍",
+          "price": 40
+        },
+        {
+          "id": "milksha.tea.roasted_oolong",
+          "name": "焙火烏龍",
+          "price": 45
+        },
+        {
+          "id": "milksha.tea.buckwheat",
+          "name": "黃金蕎麥茶",
+          "price": 40
+        },
+        {
+          "id": "milksha.tea.mugwort_tea",
+          "name": "艾草茶",
+          "price": 45
+        },
+        {
+          "id": "milksha.tea.barley_tea",
+          "name": "決明大麥茶",
+          "price": 40
+        }
+      ]
+    },
+    {
+      "id": "fruit",
+      "name": "果茶",
+      "items": [
+        {
+          "id": "milksha.fruit.lemon_green",
+          "name": "檸檬綠茶",
+          "price": 55
+        },
+        {
+          "id": "milksha.fruit.passion_fruit",
+          "name": "百香果綠茶",
+          "price": 60
+        },
+        {
+          "id": "milksha.fruit.grapefruit_green",
+          "name": "葡萄柚綠茶",
+          "price": 65
+        },
+        {
+          "id": "milksha.fruit.kumquat_lemon",
+          "name": "金桔檸檬",
+          "price": 55
+        },
+        {
+          "id": "milksha.fruit.winter_melon_lemon",
+          "name": "冬瓜檸檬",
+          "price": 50
+        },
+        {
+          "id": "milksha.fruit.peach_oolong",
+          "name": "水蜜桃烏龍",
+          "price": 65,
+          "availability": {
+            "kind": "limited",
+            "from": "2026-06-01",
+            "until": "2026-09-30"
+          }
+        },
+        {
+          "id": "milksha.fruit.lychee_black",
+          "name": "荔枝紅茶",
+          "price": 65,
+          "availability": {
+            "kind": "limited",
+            "from": "2026-05-15",
+            "until": "2026-09-15"
+          }
+        }
+      ]
+    },
+    {
+      "id": "special",
+      "name": "特調",
+      "items": [
+        {
+          "id": "milksha.special.mugwort_milk",
+          "name": "艾草鮮奶",
+          "price": 75
+        },
+        {
+          "id": "milksha.special.oat_milk_tea",
+          "name": "燕麥鮮奶茶",
+          "price": 75
+        },
+        {
+          "id": "milksha.special.purple_rice",
+          "name": "紫米鮮奶",
+          "price": 80
+        },
+        {
+          "id": "milksha.special.black_tea_latte",
+          "name": "紅茶拿鐵",
+          "price": 70
+        },
+        {
+          "id": "milksha.special.green_bean",
+          "name": "綠豆沙牛奶",
+          "price": 70
+        },
+        {
+          "id": "milksha.special.sesame_milk",
+          "name": "芝麻鮮奶",
+          "price": 80,
+          "availability": {
+            "kind": "limited",
+            "from": "2025-12-01",
+            "until": "2026-03-31"
+          }
+        }
+      ]
+    },
+    {
+      "id": "winter_melon",
+      "name": "冬瓜系列",
+      "items": [
+        {
+          "id": "milksha.winter_melon.winter_melon",
+          "name": "冬瓜茶",
+          "price": 40
+        },
+        {
+          "id": "milksha.winter_melon.winter_melon_tea",
+          "name": "冬瓜青茶",
+          "price": 45
+        },
+        {
+          "id": "milksha.winter_melon.winter_melon_milk",
+          "name": "冬瓜鮮奶",
+          "price": 65
+        },
+        {
+          "id": "milksha.winter_melon.winter_melon_pearl",
+          "name": "冬瓜珍珠鮮奶",
+          "price": 70
+        },
+        {
+          "id": "milksha.winter_melon.winter_melon_ai_yu",
+          "name": "冬瓜檸檬愛玉",
+          "price": 55
+        }
+      ]
+    },
+    {
+      "id": "yogurt",
+      "name": "優格",
+      "items": [
+        {
+          "id": "milksha.yogurt.plain_yogurt",
+          "name": "原味優格",
+          "price": 70
+        },
+        {
+          "id": "milksha.yogurt.berry_yogurt",
+          "name": "莓果優格",
+          "price": 80
+        },
+        {
+          "id": "milksha.yogurt.mango_yogurt",
+          "name": "芒果優格",
+          "price": 80,
+          "availability": {
+            "kind": "limited",
+            "from": "2026-06-01",
+            "until": "2026-09-30"
+          }
+        },
+        {
+          "id": "milksha.yogurt.aloe_yogurt",
+          "name": "蘆薈優格",
+          "price": 75
+        },
+        {
+          "id": "milksha.yogurt.passion_yogurt",
+          "name": "百香優格",
+          "price": 75
+        }
+      ]
+    }
+  ]
+}

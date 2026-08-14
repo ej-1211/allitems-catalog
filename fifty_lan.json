@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 3,
+  "contentVersion": 1,
+  "id": "fifty_lan",
+  "name": "50嵐",
+  "mark": "🧋",
+  "tint": {
+    "light": "#0E6B4F",
+    "dark": "#35C79A"
+  },
+  "categories": [
+    {
+      "id": "milk_tea",
+      "name": "奶茶類",
+      "items": [
+        {
+          "id": "fifty_lan.milk_tea.pearl",
+          "name": "珍珠奶茶",
+          "price": 50,
+          "note": "招牌"
+        },
+        {
+          "id": "fifty_lan.milk_tea.boba",
+          "name": "波霸奶茶",
+          "price": 50
+        },
+        {
+          "id": "fifty_lan.milk_tea.four_season",
+          "name": "四季奶青",
+          "price": 45
+        },
+        {
+          "id": "fifty_lan.milk_tea.oolong",
+          "name": "烏龍奶茶",
+          "price": 45
+        },
+        {
+          "id": "fifty_lan.milk_tea.classic",
+          "name": "奶茶",
+          "price": 40
+        },
+        {
+          "id": "fifty_lan.milk_tea.pudding",
+          "name": "布丁奶茶",
+          "price": 55
+        },
+        {
+          "id": "fifty_lan.milk_tea.coconut",
+          "name": "椰果奶茶",
+          "price": 50
+        },
+        {
+          "id": "fifty_lan.milk_tea.coffee_jelly",
+          "name": "咖啡凍奶茶",
+          "price": 55
+        },
+        {
+          "id": "fifty_lan.milk_tea.ovaltine",
+          "name": "阿華田",
+          "price": 55,
+          "availability": "delisted"
+        },
+        {
+          "id": "fifty_lan.milk_tea.chocolate",
+          "name": "巧克力",
+          "price": 55
+        }
+      ]
+    },
+    {
+      "id": "tea",
+      "name": "茶類",
+      "items": [
+        {
+          "id": "fifty_lan.tea.jasmine_green",
+          "name": "茉莉綠茶",
+          "price": 30
+        },
+        {
+          "id": "fifty_lan.tea.assam_black",
+          "name": "阿薩姆紅茶",
+          "price": 30
+        },
+        {
+          "id": "fifty_lan.tea.four_season",
+          "name": "四季春青茶",
+          "price": 30
+        },
+        {
+          "id": "fifty_lan.tea.golden_oolong",
+          "name": "黃金烏龍",
+          "price": 35
+        },
+        {
+          "id": "fifty_lan.tea.strong_black",
+          "name": "特濃紅茶",
+          "price": 35
+        },
+        {
+          "id": "fifty_lan.tea.winter_melon",
+          "name": "冬瓜茶",
+          "price": 30
+        },
+        {
+          "id": "fifty_lan.tea.winter_melon_tea",
+          "name": "冬瓜青茶",
+          "price": 35
+        },
+        {
+          "id": "fifty_lan.tea.honey_green",
+          "name": "蜂蜜綠茶",
+          "price": 40,
+          "availability": {
+            "kind": "limited",
+            "from": "2025-12-01",
+            "until": "2026-03-31"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fruit_tea",
+      "name": "果茶類",
+      "items": [
+        {
+          "id": "fifty_lan.fruit_tea.lemon_green",
+          "name": "檸檬青",
+          "price": 50
+        },
+        {
+          "id": "fifty_lan.fruit_tea.plum_green",
+          "name": "梅子綠",
+          "price": 45
+        },
+        {
+          "id": "fifty_lan.fruit_tea.orange_green",
+          "name": "柳丁綠",
+          "price": 55
+        },
+        {
+          "id": "fifty_lan.fruit_tea.grapefruit_green",
+          "name": "葡萄柚綠",
+          "price": 60
+        },
+        {
+          "id": "fifty_lan.fruit_tea.passion_double",
+          "name": "百香雙響炮",
+          "price": 55
+        },
+        {
+          "id": "fifty_lan.fruit_tea.eight_ice_green",
+          "name": "8 冰綠",
+          "price": 50
+        },
+        {
+          "id": "fifty_lan.fruit_tea.kumquat_lemon",
+          "name": "金桔檸檬",
+          "price": 50
+        },
+        {
+          "id": "fifty_lan.fruit_tea.honey_lemon",
+          "name": "蜂蜜檸檬",
+          "price": 55
+        },
+        {
+          "id": "fifty_lan.fruit_tea.peach_black",
+          "name": "水蜜桃紅茶",
+          "price": 55
+        },
+        {
+          "id": "fifty_lan.fruit_tea.mango_green",
+          "name": "芒果綠茶",
+          "price": 55,
+          "availability": {
+            "kind": "limited",
+            "from": "2026-05-15",
+            "until": "2026-09-15"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fresh_milk",
+      "name": "鮮奶類",
+      "items": [
+        {
+          "id": "fifty_lan.fresh_milk.black_tea_latte",
+          "name": "紅茶拿鐵",
+          "price": 60
+        },
+        {
+          "id": "fifty_lan.fresh_milk.oolong_latte",
+          "name": "觀音拿鐵",
+          "price": 60
+        },
+        {
+          "id": "fifty_lan.fresh_milk.matcha_latte",
+          "name": "抹茶拿鐵",
+          "price": 65
+        },
+        {
+          "id": "fifty_lan.fresh_milk.boba_milk",
+          "name": "波霸鮮奶",
+          "price": 65
+        },
+        {
+          "id": "fifty_lan.fresh_milk.coffee_latte",
+          "name": "咖啡拿鐵",
+          "price": 65
+        },
+        {
+          "id": "fifty_lan.fresh_milk.brown_rice_latte",
+          "name": "玄米拿鐵",
+          "price": 60
+        }
+      ]
+    },
+    {
+      "id": "special",
+      "name": "特調",
+      "items": [
+        {
+          "id": "fifty_lan.special.ice_cream_black_tea",
+          "name": "冰淇淋紅茶",
+          "price": 55
+        },
+        {
+          "id": "fifty_lan.special.mung_bean_smoothie",
+          "name": "綠豆沙牛奶",
+          "price": 60
+        },
+        {
+          "id": "fifty_lan.special.taro_milk",
+          "name": "芋頭鮮奶",
+          "price": 70
+        },
+        {
+          "id": "fifty_lan.special.oat_milk_tea",
+          "name": "燕麥奶茶",
+          "price": 60
+        },
+        {
+          "id": "fifty_lan.special.sour_plum",
+          "name": "酸梅湯",
+          "price": 40,
+          "availability": {
+            "kind": "limited",
+            "from": "2026-06-01",
+            "until": "2026-09-30"
+          }
+        },
+        {
+          "id": "fifty_lan.special.honey_aiyu",
+          "name": "蜂蜜愛玉",
+          "price": 50
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 3,
+  "contentVersion": 1,
+  "id": "louisa",
+  "name": "路易莎",
+  "mark": "🥐",
+  "tint": {
+    "light": "#7C2D12",
+    "dark": "#FDBA74"
+  },
+  "categories": [
+    {
+      "id": "coffee",
+      "name": "咖啡",
+      "items": [
+        {
+          "id": "louisa.coffee.americano",
+          "name": "美式咖啡",
+          "price": 60,
+          "note": "招牌"
+        },
+        {
+          "id": "louisa.coffee.latte",
+          "name": "拿鐵",
+          "price": 75
+        },
+        {
+          "id": "louisa.coffee.cappuccino",
+          "name": "卡布奇諾",
+          "price": 75
+        },
+        {
+          "id": "louisa.coffee.caramel_latte",
+          "name": "焦糖拿鐵",
+          "price": 90
+        },
+        {
+          "id": "louisa.coffee.hazelnut_latte",
+          "name": "榛果拿鐵",
+          "price": 90
+        },
+        {
+          "id": "louisa.coffee.mocha",
+          "name": "摩卡",
+          "price": 95
+        },
+        {
+          "id": "louisa.coffee.vanilla_latte",
+          "name": "香草拿鐵",
+          "price": 90
+        },
+        {
+          "id": "louisa.coffee.espresso",
+          "name": "義式濃縮",
+          "price": 55
+        },
+        {
+          "id": "louisa.coffee.cold_brew",
+          "name": "冰釀咖啡",
+          "price": 95
+        },
+        {
+          "id": "louisa.coffee.oat_latte",
+          "name": "燕麥拿鐵",
+          "price": 95
+        }
+      ]
+    },
+    {
+      "id": "tea",
+      "name": "茶飲",
+      "items": [
+        {
+          "id": "louisa.tea.black_tea",
+          "name": "錫蘭紅茶",
+          "price": 55
+        },
+        {
+          "id": "louisa.tea.earl_grey_latte",
+          "name": "伯爵鮮奶茶",
+          "price": 85
+        },
+        {
+          "id": "louisa.tea.matcha_latte",
+          "name": "抹茶鮮奶",
+          "price": 95
+        },
+        {
+          "id": "louisa.tea.jasmine_green",
+          "name": "茉莉綠茶",
+          "price": 55
+        },
+        {
+          "id": "louisa.tea.fruit_tea",
+          "name": "蜜桃烏龍",
+          "price": 85,
+          "availability": {
+            "kind": "limited",
+            "from": "2026-06-01",
+            "until": "2026-09-30"
+          }
+        },
+        {
+          "id": "louisa.tea.chai_latte",
+          "name": "印度茶拿鐵",
+          "price": 95
+        },
+        {
+          "id": "louisa.tea.lemon_black",
+          "name": "檸檬紅茶",
+          "price": 70
+        }
+      ]
+    },
+    {
+      "id": "other_drink",
+      "name": "其他飲品",
+      "items": [
+        {
+          "id": "louisa.other_drink.cocoa",
+          "name": "熱可可",
+          "price": 85
+        },
+        {
+          "id": "louisa.other_drink.milk",
+          "name": "鮮奶",
+          "price": 60
+        },
+        {
+          "id": "louisa.other_drink.honey_lemon",
+          "name": "蜂蜜檸檬",
+          "price": 75
+        },
+        {
+          "id": "louisa.other_drink.smoothie_berry",
+          "name": "莓果冰沙",
+          "price": 110,
+          "availability": {
+            "kind": "limited",
+            "from": "2026-06-01",
+            "until": "2026-09-30"
+          }
+        },
+        {
+          "id": "louisa.other_drink.yakult_green",
+          "name": "多多綠茶",
+          "price": 75
+        }
+      ]
+    },
+    {
+      "id": "toast",
+      "name": "厚片與吐司",
+      "items": [
+        {
+          "id": "louisa.toast.butter_toast",
+          "name": "奶油厚片",
+          "price": 45
+        },
+        {
+          "id": "louisa.toast.garlic_toast",
+          "name": "香蒜厚片",
+          "price": 50
+        },
+        {
+          "id": "louisa.toast.peanut_toast",
+          "name": "花生厚片",
+          "price": 45
+        },
+        {
+          "id": "louisa.toast.cheese_toast",
+          "name": "起司厚片",
+          "price": 55
+        },
+        {
+          "id": "louisa.toast.ham_cheese_toast",
+          "name": "火腿起司吐司",
+          "price": 75
+        },
+        {
+          "id": "louisa.toast.tuna_toast",
+          "name": "鮪魚吐司",
+          "price": 75
+        }
+      ]
+    },
+    {
+      "id": "bakery",
+      "name": "麵包甜點",
+      "items": [
+        {
+          "id": "louisa.bakery.croissant",
+          "name": "可頌",
+          "price": 55
+        },
+        {
+          "id": "louisa.bakery.almond_croissant",
+          "name": "杏仁可頌",
+          "price": 70
+        },
+        {
+          "id": "louisa.bakery.chocolate_croissant",
+          "name": "巧克力可頌",
+          "price": 65
+        },
+        {
+          "id": "louisa.bakery.bagel",
+          "name": "原味貝果",
+          "price": 55
+        },
+        {
+          "id": "louisa.bakery.cinnamon_roll",
+          "name": "肉桂捲",
+          "price": 75
+        },
+        {
+          "id": "louisa.bakery.cheesecake",
+          "name": "重乳酪蛋糕",
+          "price": 95
+        },
+        {
+          "id": "louisa.bakery.brownie",
+          "name": "布朗尼",
+          "price": 75
+        },
+        {
+          "id": "louisa.bakery.egg_tart",
+          "name": "葡式蛋塔",
+          "price": 45
+        },
+        {
+          "id": "louisa.bakery.scone",
+          "name": "英式司康",
+          "price": 60,
+          "availability": {
+            "kind": "limited",
+            "from": "2026-01-01",
+            "until": "2026-04-30"
+          }
+        }
+      ]
+    },
+    {
+      "id": "meal",
+      "name": "輕食",
+      "items": [
+        {
+          "id": "louisa.meal.chicken_panini",
+          "name": "煙燻雞肉帕尼尼",
+          "price": 120
+        },
+        {
+          "id": "louisa.meal.ham_panini",
+          "name": "火腿起司帕尼尼",
+          "price": 110
+        },
+        {
+          "id": "louisa.meal.caesar_salad",
+          "name": "凱撒沙拉",
+          "price": 130
+        },
+        {
+          "id": "louisa.meal.chicken_wrap",
+          "name": "雞肉捲餅",
+          "price": 115
+        },
+        {
+          "id": "louisa.meal.egg_sandwich",
+          "name": "雞蛋三明治",
+          "price": 85
+        },
+        {
+          "id": "louisa.meal.pasta",
+          "name": "青醬義大利麵",
+          "price": 145
+        },
+        {
+          "id": "louisa.meal.club_sandwich",
+          "name": "總匯三明治",
+          "price": 125,
+          "availability": "delisted"
+        }
+      ]
+    }
+  ]
+}

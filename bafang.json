@@ -1,0 +1,293 @@
+{
+  "schemaVersion": 3,
+  "contentVersion": 1,
+  "id": "bafang",
+  "name": "八方雲集",
+  "mark": "🥟",
+  "tint": {
+    "light": "#6D28D9",
+    "dark": "#A78BFA"
+  },
+  "categories": [
+    {
+      "id": "potsticker",
+      "name": "鍋貼",
+      "items": [
+        {
+          "id": "bafang.potsticker.pork",
+          "name": "招牌鍋貼",
+          "price": 8,
+          "note": "單顆計價"
+        },
+        {
+          "id": "bafang.potsticker.kimchi",
+          "name": "韓式泡菜鍋貼",
+          "price": 9
+        },
+        {
+          "id": "bafang.potsticker.corn",
+          "name": "玉米鍋貼",
+          "price": 9
+        },
+        {
+          "id": "bafang.potsticker.veggie",
+          "name": "高麗菜鍋貼",
+          "price": 8
+        },
+        {
+          "id": "bafang.potsticker.curry",
+          "name": "咖哩鍋貼",
+          "price": 9
+        },
+        {
+          "id": "bafang.potsticker.spicy",
+          "name": "麻辣鍋貼",
+          "price": 9
+        },
+        {
+          "id": "bafang.potsticker.cheese",
+          "name": "起司鍋貼",
+          "price": 10,
+          "availability": {
+            "kind": "limited",
+            "from": "2026-06-01",
+            "until": "2026-09-30"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dumpling",
+      "name": "水餃",
+      "items": [
+        {
+          "id": "bafang.dumpling.pork_dumpling",
+          "name": "招牌水餃",
+          "price": 8
+        },
+        {
+          "id": "bafang.dumpling.kimchi_dumpling",
+          "name": "韓式泡菜水餃",
+          "price": 9
+        },
+        {
+          "id": "bafang.dumpling.corn_dumpling",
+          "name": "玉米水餃",
+          "price": 9
+        },
+        {
+          "id": "bafang.dumpling.veggie_dumpling",
+          "name": "素食水餃",
+          "price": 8
+        },
+        {
+          "id": "bafang.dumpling.shrimp_dumpling",
+          "name": "鮮蝦水餃",
+          "price": 12
+        },
+        {
+          "id": "bafang.dumpling.luffa_dumpling",
+          "name": "絲瓜水餃",
+          "price": 10
+        },
+        {
+          "id": "bafang.dumpling.mushroom_dumpling",
+          "name": "香菇水餃",
+          "price": 9
+        }
+      ]
+    },
+    {
+      "id": "soup",
+      "name": "湯品",
+      "items": [
+        {
+          "id": "bafang.soup.sour_spicy",
+          "name": "酸辣湯",
+          "price": 40,
+          "note": "招牌"
+        },
+        {
+          "id": "bafang.soup.corn_soup",
+          "name": "玉米濃湯",
+          "price": 35
+        },
+        {
+          "id": "bafang.soup.seaweed",
+          "name": "紫菜蛋花湯",
+          "price": 30
+        },
+        {
+          "id": "bafang.soup.miso",
+          "name": "味噌湯",
+          "price": 30
+        },
+        {
+          "id": "bafang.soup.pork_rib",
+          "name": "貢丸湯",
+          "price": 40
+        },
+        {
+          "id": "bafang.soup.egg_drop",
+          "name": "蛋花湯",
+          "price": 30
+        },
+        {
+          "id": "bafang.soup.kimchi_soup",
+          "name": "泡菜豆腐湯",
+          "price": 50
+        },
+        {
+          "id": "bafang.soup.beef_soup",
+          "name": "牛肉湯",
+          "price": 70
+        }
+      ]
+    },
+    {
+      "id": "noodle",
+      "name": "麵食",
+      "items": [
+        {
+          "id": "bafang.noodle.beef_noodle",
+          "name": "紅燒牛肉麵",
+          "price": 130
+        },
+        {
+          "id": "bafang.noodle.dry_noodle",
+          "name": "招牌乾麵",
+          "price": 50
+        },
+        {
+          "id": "bafang.noodle.sesame_noodle",
+          "name": "麻醬麵",
+          "price": 55
+        },
+        {
+          "id": "bafang.noodle.spicy_noodle",
+          "name": "川味紅油抄手",
+          "price": 70
+        },
+        {
+          "id": "bafang.noodle.wonton_soup",
+          "name": "餛飩湯麵",
+          "price": 75
+        },
+        {
+          "id": "bafang.noodle.zhajiang",
+          "name": "炸醬麵",
+          "price": 60
+        }
+      ]
+    },
+    {
+      "id": "side",
+      "name": "小菜",
+      "items": [
+        {
+          "id": "bafang.side.braised_egg",
+          "name": "滷蛋",
+          "price": 15
+        },
+        {
+          "id": "bafang.side.braised_tofu",
+          "name": "滷豆乾",
+          "price": 25
+        },
+        {
+          "id": "bafang.side.braised_kelp",
+          "name": "滷海帶",
+          "price": 25
+        },
+        {
+          "id": "bafang.side.cucumber",
+          "name": "涼拌小黃瓜",
+          "price": 35
+        },
+        {
+          "id": "bafang.side.edamame",
+          "name": "涼拌毛豆",
+          "price": 35
+        },
+        {
+          "id": "bafang.side.pig_ear",
+          "name": "滷豬耳",
+          "price": 60
+        },
+        {
+          "id": "bafang.side.chicken_feet",
+          "name": "滷雞爪",
+          "price": 45,
+          "availability": "delisted"
+        },
+        {
+          "id": "bafang.side.cold_noodle",
+          "name": "涼麵",
+          "price": 60,
+          "availability": {
+            "kind": "limited",
+            "from": "2026-06-01",
+            "until": "2026-09-30"
+          }
+        }
+      ]
+    },
+    {
+      "id": "set",
+      "name": "套餐",
+      "items": [
+        {
+          "id": "bafang.set.dumpling_set",
+          "name": "水餃套餐",
+          "price": 110
+        },
+        {
+          "id": "bafang.set.potsticker_set",
+          "name": "鍋貼套餐",
+          "price": 110
+        },
+        {
+          "id": "bafang.set.noodle_set",
+          "name": "麵食套餐",
+          "price": 130
+        },
+        {
+          "id": "bafang.set.beef_set",
+          "name": "牛肉麵套餐",
+          "price": 175
+        }
+      ]
+    },
+    {
+      "id": "drink",
+      "name": "飲料",
+      "items": [
+        {
+          "id": "bafang.drink.soy_milk",
+          "name": "豆漿",
+          "price": 25
+        },
+        {
+          "id": "bafang.drink.black_tea",
+          "name": "紅茶",
+          "price": 25
+        },
+        {
+          "id": "bafang.drink.winter_melon",
+          "name": "冬瓜茶",
+          "price": 25
+        },
+        {
+          "id": "bafang.drink.plum_juice",
+          "name": "酸梅湯",
+          "price": 30
+        },
+        {
+          "id": "bafang.drink.soda",
+          "name": "汽水",
+          "price": 30
+        }
+      ]
+    }
+  ]
+}

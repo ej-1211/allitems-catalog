@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 3,
+  "contentVersion": 1,
+  "id": "mos_burger",
+  "name": "摩斯漢堡",
+  "mark": "🍔",
+  "tint": {
+    "light": "#C2410C",
+    "dark": "#FB923C"
+  },
+  "categories": [
+    {
+      "id": "burger",
+      "name": "漢堡",
+      "items": [
+        {
+          "id": "mos_burger.burger.mos_burger",
+          "name": "摩斯漢堡",
+          "price": 75,
+          "note": "招牌"
+        },
+        {
+          "id": "mos_burger.burger.mos_cheese",
+          "name": "摩斯吉士漢堡",
+          "price": 85
+        },
+        {
+          "id": "mos_burger.burger.double_mos",
+          "name": "雙層摩斯漢堡",
+          "price": 115
+        },
+        {
+          "id": "mos_burger.burger.teriyaki_chicken",
+          "name": "蜜汁烤雞堡",
+          "price": 85
+        },
+        {
+          "id": "mos_burger.burger.blue_ribbon_pork",
+          "name": "藍帶豬排堡",
+          "price": 95
+        },
+        {
+          "id": "mos_burger.burger.golden_shrimp",
+          "name": "黃金炸蝦堡",
+          "price": 99
+        },
+        {
+          "id": "mos_burger.burger.tender_pork",
+          "name": "特製里肌豬肉堡",
+          "price": 79
+        },
+        {
+          "id": "mos_burger.burger.spicy_chicken",
+          "name": "辣味雞腿堡",
+          "price": 89
+        },
+        {
+          "id": "mos_burger.burger.fish",
+          "name": "海洋珍珠堡",
+          "price": 89
+        }
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "米漢堡",
+      "items": [
+        {
+          "id": "mos_burger.rice.yakiniku",
+          "name": "燒肉珍珠堡",
+          "price": 85,
+          "note": "招牌"
+        },
+        {
+          "id": "mos_burger.rice.ocean",
+          "name": "海洋珍珠堡（米）",
+          "price": 95
+        },
+        {
+          "id": "mos_burger.rice.curry_pork",
+          "name": "咖哩珍珠堡",
+          "price": 89
+        },
+        {
+          "id": "mos_burger.rice.genki_wafu",
+          "name": "元氣和風珍珠堡",
+          "price": 89
+        },
+        {
+          "id": "mos_burger.rice.mushroom",
+          "name": "蕈菇珍珠堡",
+          "price": 85
+        },
+        {
+          "id": "mos_burger.rice.kimchi_pork",
+          "name": "泡菜豬肉珍珠堡",
+          "price": 89,
+          "availability": {
+            "kind": "limited",
+            "from": "2026-06-01",
+            "until": "2026-09-30"
+          }
+        }
+      ]
+    },
+    {
+      "id": "chicken",
+      "name": "雞肉",
+      "items": [
+        {
+          "id": "mos_burger.chicken.nuggets_5",
+          "name": "摩斯雞塊 5 塊",
+          "price": 65
+        },
+        {
+          "id": "mos_burger.chicken.nuggets_10",
+          "name": "摩斯雞塊 10 塊",
+          "price": 115
+        },
+        {
+          "id": "mos_burger.chicken.drumstick",
+          "name": "夙雞腿",
+          "price": 75
+        },
+        {
+          "id": "mos_burger.chicken.wings",
+          "name": "香酥雞翅",
+          "price": 69
+        }
+      ]
+    },
+    {
+      "id": "side",
+      "name": "副餐",
+      "items": [
+        {
+          "id": "mos_burger.side.fries",
+          "name": "摩斯薯條",
+          "price": 55
+        },
+        {
+          "id": "mos_burger.side.golden_fries",
+          "name": "黃金薯條",
+          "price": 65
+        },
+        {
+          "id": "mos_burger.side.onion_rings",
+          "name": "洋蔥圈",
+          "price": 60
+        },
+        {
+          "id": "mos_burger.side.cheese_onion_rings",
+          "name": "起司洋蔥圈",
+          "price": 75
+        },
+        {
+          "id": "mos_burger.side.corn_soup",
+          "name": "玉米濃湯",
+          "price": 45
+        },
+        {
+          "id": "mos_burger.side.tomato_soup",
+          "name": "蕃茄濃湯",
+          "price": 50
+        },
+        {
+          "id": "mos_burger.side.garden_salad",
+          "name": "田園沙拉",
+          "price": 65
+        },
+        {
+          "id": "mos_burger.side.caesar_salad",
+          "name": "凱撒沙拉",
+          "price": 85
+        },
+        {
+          "id": "mos_burger.side.hash_brown",
+          "name": "薯餅",
+          "price": 35
+        }
+      ]
+    },
+    {
+      "id": "breakfast",
+      "name": "早餐",
+      "items": [
+        {
+          "id": "mos_burger.breakfast.ham_egg",
+          "name": "火腿蛋堡",
+          "price": 65
+        },
+        {
+          "id": "mos_burger.breakfast.chicken_croissant",
+          "name": "燻雞可頌",
+          "price": 75
+        },
+        {
+          "id": "mos_burger.breakfast.tuna_muffin",
+          "name": "鮪魚滿福",
+          "price": 69
+        },
+        {
+          "id": "mos_burger.breakfast.pancake",
+          "name": "鬆餅",
+          "price": 60
+        }
+      ]
+    },
+    {
+      "id": "dessert",
+      "name": "甜點",
+      "items": [
+        {
+          "id": "mos_burger.dessert.baumkuchen",
+          "name": "紅豆年輪蛋糕",
+          "price": 55
+        },
+        {
+          "id": "mos_burger.dessert.ice_cream",
+          "name": "霜淇淋",
+          "price": 40
+        },
+        {
+          "id": "mos_burger.dessert.lemon_pie",
+          "name": "檸檬派",
+          "price": 45
+        },
+        {
+          "id": "mos_burger.dessert.red_bean_pie",
+          "name": "紅豆派",
+          "price": 45,
+          "availability": "delisted"
+        },
+        {
+          "id": "mos_burger.dessert.matcha_sundae",
+          "name": "抹茶聖代",
+          "price": 65,
+          "availability": {
+            "kind": "limited",
+            "from": "2026-06-01",
+            "until": "2026-09-30"
+          }
+        }
+      ]
+    },
+    {
+      "id": "drink",
+      "name": "飲料",
+      "items": [
+        {
+          "id": "mos_burger.drink.black_tea",
+          "name": "冰紅茶",
+          "price": 40
+        },
+        {
+          "id": "mos_burger.drink.green_tea",
+          "name": "冰綠茶",
+          "price": 40
+        },
+        {
+          "id": "mos_burger.drink.honey_tea",
+          "name": "蜜茶",
+          "price": 50
+        },
+        {
+          "id": "mos_burger.drink.cola",
+          "name": "可樂",
+          "price": 40
+        },
+        {
+          "id": "mos_burger.drink.orange_juice",
+          "name": "柳橙汁",
+          "price": 50
+        },
+        {
+          "id": "mos_burger.drink.coffee",
+          "name": "特調咖啡",
+          "price": 55
+        },
+        {
+          "id": "mos_burger.drink.hot_cocoa",
+          "name": "熱可可",
+          "price": 55
+        },
+        {
+          "id": "mos_burger.drink.soy_milk",
+          "name": "香濃豆漿",
+          "price": 40
+        },
+        {
+          "id": "mos_burger.drink.milk_tea",
+          "name": "特調奶茶",
+          "price": 55
+        }
+      ]
+    }
+  ]
+}

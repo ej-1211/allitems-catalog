@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 3,
+  "contentVersion": 1,
+  "id": "chingshin",
+  "name": "清心福全",
+  "mark": "🍵",
+  "tint": {
+    "light": "#1D4ED8",
+    "dark": "#60A5FA"
+  },
+  "categories": [
+    {
+      "id": "milk_tea",
+      "name": "奶茶",
+      "items": [
+        {
+          "id": "chingshin.milk_tea.pearl_milk",
+          "name": "珍珠奶茶",
+          "price": 45,
+          "note": "招牌"
+        },
+        {
+          "id": "chingshin.milk_tea.boba_milk",
+          "name": "波霸奶茶",
+          "price": 45
+        },
+        {
+          "id": "chingshin.milk_tea.classic_milk",
+          "name": "招牌奶茶",
+          "price": 35
+        },
+        {
+          "id": "chingshin.milk_tea.green_milk",
+          "name": "翡翠奶茶",
+          "price": 40
+        },
+        {
+          "id": "chingshin.milk_tea.oolong_milk",
+          "name": "烏龍奶茶",
+          "price": 40
+        },
+        {
+          "id": "chingshin.milk_tea.pudding_milk",
+          "name": "布丁奶茶",
+          "price": 50
+        },
+        {
+          "id": "chingshin.milk_tea.coconut_milk",
+          "name": "椰果奶茶",
+          "price": 45
+        },
+        {
+          "id": "chingshin.milk_tea.taro_milk",
+          "name": "芋圓奶茶",
+          "price": 55
+        },
+        {
+          "id": "chingshin.milk_tea.grass_jelly_milk",
+          "name": "仙草凍奶茶",
+          "price": 50
+        }
+      ]
+    },
+    {
+      "id": "tea",
+      "name": "茶類",
+      "items": [
+        {
+          "id": "chingshin.tea.green_tea",
+          "name": "翡翠綠茶",
+          "price": 25
+        },
+        {
+          "id": "chingshin.tea.black_tea",
+          "name": "古味紅茶",
+          "price": 25
+        },
+        {
+          "id": "chingshin.tea.four_season",
+          "name": "四季春茶",
+          "price": 30
+        },
+        {
+          "id": "chingshin.tea.oolong",
+          "name": "凍頂烏龍",
+          "price": 35
+        },
+        {
+          "id": "chingshin.tea.jin_xuan",
+          "name": "金萱茶",
+          "price": 35
+        },
+        {
+          "id": "chingshin.tea.wenshan",
+          "name": "文山青茶",
+          "price": 30
+        },
+        {
+          "id": "chingshin.tea.barley",
+          "name": "黃金麥茶",
+          "price": 30
+        }
+      ]
+    },
+    {
+      "id": "fruit",
+      "name": "果茶",
+      "items": [
+        {
+          "id": "chingshin.fruit.lemon_green",
+          "name": "檸檬綠茶",
+          "price": 45
+        },
+        {
+          "id": "chingshin.fruit.kumquat_lemon",
+          "name": "金桔檸檬",
+          "price": 45
+        },
+        {
+          "id": "chingshin.fruit.passion_green",
+          "name": "百香綠茶",
+          "price": 45
+        },
+        {
+          "id": "chingshin.fruit.plum_green",
+          "name": "梅子綠茶",
+          "price": 40
+        },
+        {
+          "id": "chingshin.fruit.grapefruit_green",
+          "name": "葡萄柚綠茶",
+          "price": 55
+        },
+        {
+          "id": "chingshin.fruit.orange_green",
+          "name": "柳橙綠茶",
+          "price": 50
+        },
+        {
+          "id": "chingshin.fruit.lemon_ai_yu",
+          "name": "檸檬愛玉",
+          "price": 50
+        },
+        {
+          "id": "chingshin.fruit.mango_green",
+          "name": "芒果綠茶",
+          "price": 55,
+          "availability": {
+            "kind": "limited",
+            "from": "2026-05-15",
+            "until": "2026-09-15"
+          }
+        }
+      ]
+    },
+    {
+      "id": "winter_melon",
+      "name": "冬瓜系列",
+      "items": [
+        {
+          "id": "chingshin.winter_melon.winter_melon",
+          "name": "冬瓜茶",
+          "price": 25
+        },
+        {
+          "id": "chingshin.winter_melon.winter_melon_tea",
+          "name": "冬瓜青茶",
+          "price": 30
+        },
+        {
+          "id": "chingshin.winter_melon.winter_melon_lemon",
+          "name": "冬瓜檸檬",
+          "price": 45
+        },
+        {
+          "id": "chingshin.winter_melon.winter_melon_milk",
+          "name": "冬瓜牛奶",
+          "price": 50
+        }
+      ]
+    },
+    {
+      "id": "fresh_milk",
+      "name": "鮮奶系列",
+      "items": [
+        {
+          "id": "chingshin.fresh_milk.black_tea_latte",
+          "name": "紅茶拿鐵",
+          "price": 55
+        },
+        {
+          "id": "chingshin.fresh_milk.green_tea_latte",
+          "name": "綠茶拿鐵",
+          "price": 55
+        },
+        {
+          "id": "chingshin.fresh_milk.oolong_latte",
+          "name": "烏龍拿鐵",
+          "price": 55
+        },
+        {
+          "id": "chingshin.fresh_milk.pearl_fresh_milk",
+          "name": "珍珠鮮奶",
+          "price": 60
+        },
+        {
+          "id": "chingshin.fresh_milk.brown_sugar_milk",
+          "name": "黑糖鮮奶",
+          "price": 60
+        },
+        {
+          "id": "chingshin.fresh_milk.matcha_latte",
+          "name": "抹茶拿鐵",
+          "price": 60
+        },
+        {
+          "id": "chingshin.fresh_milk.cocoa_milk",
+          "name": "可可鮮奶",
+          "price": 60
+        }
+      ]
+    },
+    {
+      "id": "special",
+      "name": "特調",
+      "items": [
+        {
+          "id": "chingshin.special.grass_jelly",
+          "name": "燒仙草",
+          "price": 50
+        },
+        {
+          "id": "chingshin.special.ai_yu",
+          "name": "檸檬愛玉凍",
+          "price": 45
+        },
+        {
+          "id": "chingshin.special.plum_juice",
+          "name": "酸梅湯",
+          "price": 35
+        },
+        {
+          "id": "chingshin.special.multigrain",
+          "name": "多多綠茶",
+          "price": 50
+        },
+        {
+          "id": "chingshin.special.papaya_milk",
+          "name": "木瓜牛奶",
+          "price": 60,
+          "availability": "delisted"
+        },
+        {
+          "id": "chingshin.special.winter_melon_ai_yu",
+          "name": "冬瓜愛玉",
+          "price": 45
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,387 @@
+{
+  "schemaVersion": 3,
+  "contentVersion": 1,
+  "id": "saizeriya",
+  "name": "薩莉亞",
+  "mark": "🍝",
+  "tint": {
+    "light": "#1B7A3E",
+    "dark": "#3FBF6E"
+  },
+  "categories": [
+    {
+      "id": "appetizer",
+      "name": "沙拉前菜",
+      "items": [
+        {
+          "id": "saizeriya.appetizer.small_salad",
+          "name": "小沙拉",
+          "price": 49
+        },
+        {
+          "id": "saizeriya.appetizer.garden_salad",
+          "name": "田園沙拉",
+          "price": 89
+        },
+        {
+          "id": "saizeriya.appetizer.shrimp_salad",
+          "name": "鮮蝦沙拉",
+          "price": 129
+        },
+        {
+          "id": "saizeriya.appetizer.chicken_salad",
+          "name": "雞肉沙拉",
+          "price": 119
+        },
+        {
+          "id": "saizeriya.appetizer.prosciutto",
+          "name": "生火腿",
+          "price": 99
+        },
+        {
+          "id": "saizeriya.appetizer.cheese_plate",
+          "name": "綜合起司盤",
+          "price": 109
+        },
+        {
+          "id": "saizeriya.appetizer.escargot",
+          "name": "香烤蝸牛",
+          "price": 99,
+          "note": "招牌前菜"
+        },
+        {
+          "id": "saizeriya.appetizer.octopus",
+          "name": "涼拌章魚",
+          "price": 89,
+          "availability": "delisted"
+        }
+      ]
+    },
+    {
+      "id": "soup",
+      "name": "湯品",
+      "items": [
+        {
+          "id": "saizeriya.soup.corn",
+          "name": "玉米濃湯",
+          "price": 39
+        },
+        {
+          "id": "saizeriya.soup.vegetable",
+          "name": "蔬菜湯",
+          "price": 39
+        },
+        {
+          "id": "saizeriya.soup.onion",
+          "name": "洋蔥湯",
+          "price": 49
+        }
+      ]
+    },
+    {
+      "id": "pasta",
+      "name": "義大利麵",
+      "items": [
+        {
+          "id": "saizeriya.pasta.carbonara",
+          "name": "培根蛋黃義大利麵",
+          "price": 149
+        },
+        {
+          "id": "saizeriya.pasta.arrabbiata",
+          "name": "辣味茄汁義大利麵",
+          "price": 129
+        },
+        {
+          "id": "saizeriya.pasta.bolognese",
+          "name": "波隆那肉醬義大利麵",
+          "price": 139
+        },
+        {
+          "id": "saizeriya.pasta.mentaiko",
+          "name": "明太子義大利麵",
+          "price": 159,
+          "availability": {
+            "kind": "limited",
+            "from": "2026-06-01",
+            "until": "2026-09-30"
+          }
+        },
+        {
+          "id": "saizeriya.pasta.peperoncino",
+          "name": "蒜香辣椒義大利麵",
+          "price": 119
+        },
+        {
+          "id": "saizeriya.pasta.shrimp_tomato",
+          "name": "鮮蝦番茄義大利麵",
+          "price": 169
+        },
+        {
+          "id": "saizeriya.pasta.spicy_chicken",
+          "name": "香辣雞肉義大利麵",
+          "price": 149
+        },
+        {
+          "id": "saizeriya.pasta.mushroom_cream",
+          "name": "蘑菇奶油義大利麵",
+          "price": 149
+        },
+        {
+          "id": "saizeriya.pasta.seafood",
+          "name": "海鮮義大利麵",
+          "price": 179
+        },
+        {
+          "id": "saizeriya.pasta.pesto",
+          "name": "青醬義大利麵",
+          "price": 139
+        },
+        {
+          "id": "saizeriya.pasta.egg_bolognese",
+          "name": "半熟蛋肉醬義大利麵",
+          "price": 159
+        },
+        {
+          "id": "saizeriya.pasta.cheese_bacon",
+          "name": "起司培根義大利麵",
+          "price": 149
+        }
+      ]
+    },
+    {
+      "id": "doria",
+      "name": "焗烤燉飯",
+      "items": [
+        {
+          "id": "saizeriya.doria.milano",
+          "name": "米蘭焗烤飯",
+          "price": 119,
+          "note": "招牌"
+        },
+        {
+          "id": "saizeriya.doria.meat_sauce",
+          "name": "肉醬焗烤飯",
+          "price": 129
+        },
+        {
+          "id": "saizeriya.doria.cheese",
+          "name": "起司焗烤飯",
+          "price": 129
+        },
+        {
+          "id": "saizeriya.doria.seafood",
+          "name": "海鮮焗烤飯",
+          "price": 169
+        },
+        {
+          "id": "saizeriya.doria.chicken_mushroom",
+          "name": "雞肉蘑菇焗烤飯",
+          "price": 149
+        },
+        {
+          "id": "saizeriya.doria.lasagna",
+          "name": "焗烤千層麵",
+          "price": 159
+        },
+        {
+          "id": "saizeriya.doria.mentaiko",
+          "name": "明太子焗烤飯",
+          "price": 159
+        }
+      ]
+    },
+    {
+      "id": "pizza",
+      "name": "披薩",
+      "items": [
+        {
+          "id": "saizeriya.pizza.margherita",
+          "name": "瑪格麗特披薩",
+          "price": 139
+        },
+        {
+          "id": "saizeriya.pizza.salami",
+          "name": "義式臘腸披薩",
+          "price": 149
+        },
+        {
+          "id": "saizeriya.pizza.mushroom",
+          "name": "蘑菇披薩",
+          "price": 139
+        },
+        {
+          "id": "saizeriya.pizza.corn",
+          "name": "玉米披薩",
+          "price": 129
+        },
+        {
+          "id": "saizeriya.pizza.four_cheese",
+          "name": "四種起司披薩",
+          "price": 169
+        },
+        {
+          "id": "saizeriya.pizza.tuna",
+          "name": "鮪魚披薩",
+          "price": 149,
+          "availability": {
+            "kind": "limited",
+            "from": "2025-11-01",
+            "until": "2026-02-28"
+          }
+        }
+      ]
+    },
+    {
+      "id": "grill",
+      "name": "主餐",
+      "items": [
+        {
+          "id": "saizeriya.grill.herb_chicken",
+          "name": "香草烤雞",
+          "price": 169
+        },
+        {
+          "id": "saizeriya.grill.steak",
+          "name": "牛排",
+          "price": 249
+        },
+        {
+          "id": "saizeriya.grill.hamburg",
+          "name": "漢堡排",
+          "price": 159
+        },
+        {
+          "id": "saizeriya.grill.milano_pork",
+          "name": "米蘭豬排",
+          "price": 179
+        },
+        {
+          "id": "saizeriya.grill.lamb",
+          "name": "烤羊排",
+          "price": 229,
+          "availability": "delisted"
+        },
+        {
+          "id": "saizeriya.grill.spicy_wings",
+          "name": "辣味雞翅",
+          "price": 99
+        },
+        {
+          "id": "saizeriya.grill.fish",
+          "name": "香煎魚排",
+          "price": 169
+        }
+      ]
+    },
+    {
+      "id": "side",
+      "name": "配菜",
+      "items": [
+        {
+          "id": "saizeriya.side.fries",
+          "name": "薯條",
+          "price": 59
+        },
+        {
+          "id": "saizeriya.side.garlic_bread",
+          "name": "蒜香麵包",
+          "price": 49
+        },
+        {
+          "id": "saizeriya.side.baguette",
+          "name": "法式麵包",
+          "price": 39
+        },
+        {
+          "id": "saizeriya.side.nuggets",
+          "name": "炸雞塊",
+          "price": 79
+        },
+        {
+          "id": "saizeriya.side.corn",
+          "name": "奶油玉米",
+          "price": 59
+        },
+        {
+          "id": "saizeriya.side.mixed_veg",
+          "name": "綜合溫蔬菜",
+          "price": 69
+        }
+      ]
+    },
+    {
+      "id": "dessert",
+      "name": "甜點",
+      "items": [
+        {
+          "id": "saizeriya.dessert.tiramisu",
+          "name": "提拉米蘇",
+          "price": 69
+        },
+        {
+          "id": "saizeriya.dessert.panna_cotta",
+          "name": "義式奶酪",
+          "price": 59
+        },
+        {
+          "id": "saizeriya.dessert.gelato",
+          "name": "義式冰淇淋",
+          "price": 49
+        },
+        {
+          "id": "saizeriya.dessert.chocolate_cake",
+          "name": "巧克力蛋糕",
+          "price": 69
+        },
+        {
+          "id": "saizeriya.dessert.pudding",
+          "name": "焦糖布丁",
+          "price": 49
+        },
+        {
+          "id": "saizeriya.dessert.matcha_gelato",
+          "name": "抹茶冰淇淋",
+          "price": 59,
+          "availability": {
+            "kind": "limited",
+            "from": "2026-05-01",
+            "until": "2026-08-31"
+          }
+        }
+      ]
+    },
+    {
+      "id": "drink",
+      "name": "飲料",
+      "items": [
+        {
+          "id": "saizeriya.drink.drink_bar",
+          "name": "無限暢飲吧",
+          "price": 59,
+          "note": "自助續杯"
+        },
+        {
+          "id": "saizeriya.drink.black_tea",
+          "name": "紅茶",
+          "price": 39
+        },
+        {
+          "id": "saizeriya.drink.coffee",
+          "name": "咖啡",
+          "price": 39
+        },
+        {
+          "id": "saizeriya.drink.orange_juice",
+          "name": "柳橙汁",
+          "price": 49
+        },
+        {
+          "id": "saizeriya.drink.soda",
+          "name": "汽水",
+          "price": 39
+        }
+      ]
+    }
+  ]
+}

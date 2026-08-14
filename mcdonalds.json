@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 3,
+  "contentVersion": 1,
+  "id": "mcdonalds",
+  "name": "麥當勞",
+  "mark": "🍟",
+  "tint": {
+    "light": "#C8102E",
+    "dark": "#FF5A6E"
+  },
+  "categories": [
+    {
+      "id": "burger",
+      "name": "漢堡",
+      "items": [
+        {
+          "id": "mcdonalds.burger.big_mac",
+          "name": "大麥克",
+          "price": 82,
+          "note": "招牌"
+        },
+        {
+          "id": "mcdonalds.burger.double_cheese",
+          "name": "雙層牛肉吉事堡",
+          "price": 79
+        },
+        {
+          "id": "mcdonalds.burger.cheeseburger",
+          "name": "吉事漢堡",
+          "price": 48
+        },
+        {
+          "id": "mcdonalds.burger.hamburger",
+          "name": "漢堡",
+          "price": 42
+        },
+        {
+          "id": "mcdonalds.burger.spicy_chicken",
+          "name": "勁辣雞腿堡",
+          "price": 82
+        },
+        {
+          "id": "mcdonalds.burger.mcchicken",
+          "name": "麥香雞",
+          "price": 55
+        },
+        {
+          "id": "mcdonalds.burger.filet_o_fish",
+          "name": "麥香魚",
+          "price": 55
+        },
+        {
+          "id": "mcdonalds.burger.angus_mushroom",
+          "name": "蕈菇安格斯黑牛堡",
+          "price": 129
+        },
+        {
+          "id": "mcdonalds.burger.angus_blt",
+          "name": "BLT 安格斯黑牛堡",
+          "price": 129,
+          "availability": {
+            "kind": "limited",
+            "from": "2026-07-01",
+            "until": "2026-10-31"
+          }
+        },
+        {
+          "id": "mcdonalds.burger.caesar_chicken",
+          "name": "凱撒脆雞腿堡",
+          "price": 99
+        },
+        {
+          "id": "mcdonalds.burger.grilled_chicken",
+          "name": "嫩煎雞腿堡",
+          "price": 99
+        },
+        {
+          "id": "mcdonalds.burger.double_fish",
+          "name": "雙層麥香魚",
+          "price": 89,
+          "availability": "delisted"
+        }
+      ]
+    },
+    {
+      "id": "chicken",
+      "name": "雞肉",
+      "items": [
+        {
+          "id": "mcdonalds.chicken.nuggets_6",
+          "name": "麥克雞塊 6 塊",
+          "price": 66
+        },
+        {
+          "id": "mcdonalds.chicken.nuggets_10",
+          "name": "麥克雞塊 10 塊",
+          "price": 105
+        },
+        {
+          "id": "mcdonalds.chicken.nuggets_4",
+          "name": "麥克雞塊 4 塊",
+          "price": 45
+        },
+        {
+          "id": "mcdonalds.chicken.spicy_wings",
+          "name": "勁辣雞翅 2 塊",
+          "price": 69
+        },
+        {
+          "id": "mcdonalds.chicken.crispy_leg",
+          "name": "麥脆雞（腿）",
+          "price": 79
+        },
+        {
+          "id": "mcdonalds.chicken.crispy_wing",
+          "name": "麥脆雞（翅）",
+          "price": 69,
+          "availability": "delisted"
+        }
+      ]
+    },
+    {
+      "id": "side",
+      "name": "點心",
+      "items": [
+        {
+          "id": "mcdonalds.side.fries_m",
+          "name": "薯條（中）",
+          "price": 50
+        },
+        {
+          "id": "mcdonalds.side.fries_l",
+          "name": "薯條（大）",
+          "price": 60
+        },
+        {
+          "id": "mcdonalds.side.cheese_fries",
+          "name": "起司熔岩薯條",
+          "price": 79
+        },
+        {
+          "id": "mcdonalds.side.corn_soup",
+          "name": "玉米濃湯",
+          "price": 45
+        },
+        {
+          "id": "mcdonalds.side.corn_cup",
+          "name": "玉米杯",
+          "price": 40
+        },
+        {
+          "id": "mcdonalds.side.salad",
+          "name": "田園沙拉",
+          "price": 55
+        },
+        {
+          "id": "mcdonalds.side.apple_pie",
+          "name": "蘋果派",
+          "price": 35
+        },
+        {
+          "id": "mcdonalds.side.hash_brown",
+          "name": "薯餅",
+          "price": 35
+        }
+      ]
+    },
+    {
+      "id": "breakfast",
+      "name": "早餐",
+      "items": [
+        {
+          "id": "mcdonalds.breakfast.sausage_muffin",
+          "name": "豬肉滿福堡",
+          "price": 55
+        },
+        {
+          "id": "mcdonalds.breakfast.sausage_egg_muffin",
+          "name": "豬肉滿福堡加蛋",
+          "price": 69
+        },
+        {
+          "id": "mcdonalds.breakfast.egg_cheese_muffin",
+          "name": "吉士蛋堡",
+          "price": 55
+        },
+        {
+          "id": "mcdonalds.breakfast.bacon_egg_muffin",
+          "name": "培根蛋堡",
+          "price": 65
+        },
+        {
+          "id": "mcdonalds.breakfast.ham_croissant",
+          "name": "火腿起司可頌",
+          "price": 69
+        },
+        {
+          "id": "mcdonalds.breakfast.chicken_croissant",
+          "name": "燻雞可頌",
+          "price": 75
+        },
+        {
+          "id": "mcdonalds.breakfast.hotcakes",
+          "name": "熱香餅",
+          "price": 65
+        },
+        {
+          "id": "mcdonalds.breakfast.chicken_muffin",
+          "name": "雞塊滿福堡",
+          "price": 65
+        }
+      ]
+    },
+    {
+      "id": "dessert",
+      "name": "甜點冰品",
+      "items": [
+        {
+          "id": "mcdonalds.dessert.cone",
+          "name": "蛋捲冰淇淋",
+          "price": 25
+        },
+        {
+          "id": "mcdonalds.dessert.oreo_mcflurry",
+          "name": "OREO 冰炫風",
+          "price": 55
+        },
+        {
+          "id": "mcdonalds.dessert.sundae_strawberry",
+          "name": "草莓新地",
+          "price": 45
+        },
+        {
+          "id": "mcdonalds.dessert.sundae_chocolate",
+          "name": "巧克力新地",
+          "price": 45
+        },
+        {
+          "id": "mcdonalds.dessert.shake_chocolate",
+          "name": "巧克力奶昔",
+          "price": 55
+        },
+        {
+          "id": "mcdonalds.dessert.shake_strawberry",
+          "name": "草莓奶昔",
+          "price": 55,
+          "availability": {
+            "kind": "limited",
+            "from": "2026-03-01",
+            "until": "2026-06-30"
+          }
+        }
+      ]
+    },
+    {
+      "id": "drink",
+      "name": "飲料",
+      "items": [
+        {
+          "id": "mcdonalds.drink.coke",
+          "name": "可口可樂",
+          "price": 40
+        },
+        {
+          "id": "mcdonalds.drink.sprite",
+          "name": "雪碧",
+          "price": 40
+        },
+        {
+          "id": "mcdonalds.drink.fanta",
+          "name": "芬達橘子",
+          "price": 40
+        },
+        {
+          "id": "mcdonalds.drink.black_tea",
+          "name": "冰紅茶",
+          "price": 35
+        },
+        {
+          "id": "mcdonalds.drink.green_tea",
+          "name": "冰綠茶",
+          "price": 35
+        },
+        {
+          "id": "mcdonalds.drink.orange_juice",
+          "name": "柳橙汁",
+          "price": 45
+        },
+        {
+          "id": "mcdonalds.drink.milk",
+          "name": "鮮奶",
+          "price": 40
+        }
+      ]
+    },
+    {
+      "id": "mccafe",
+      "name": "McCafé",
+      "items": [
+        {
+          "id": "mcdonalds.mccafe.americano",
+          "name": "美式咖啡",
+          "price": 55
+        },
+        {
+          "id": "mcdonalds.mccafe.latte",
+          "name": "拿鐵",
+          "price": 70
+        },
+        {
+          "id": "mcdonalds.mccafe.cappuccino",
+          "name": "卡布奇諾",
+          "price": 70
+        },
+        {
+          "id": "mcdonalds.mccafe.caramel_macchiato",
+          "name": "焦糖瑪奇朵",
+          "price": 85
+        },
+        {
+          "id": "mcdonalds.mccafe.mocha",
+          "name": "摩卡",
+          "price": 85
+        },
+        {
+          "id": "mcdonalds.mccafe.iced_latte",
+          "name": "冰拿鐵",
+          "price": 75
+        }
+      ]
+    }
+  ]
+}

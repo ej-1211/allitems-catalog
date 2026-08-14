@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 3,
+  "contentVersion": 1,
+  "id": "formosa_chang",
+  "name": "鬍鬚張",
+  "mark": "🍚",
+  "tint": {
+    "light": "#92400E",
+    "dark": "#F59E0B"
+  },
+  "categories": [
+    {
+      "id": "rice",
+      "name": "飯食",
+      "items": [
+        {
+          "id": "formosa_chang.rice.lu_rou_small",
+          "name": "魯肉飯（小）",
+          "price": 40,
+          "note": "招牌"
+        },
+        {
+          "id": "formosa_chang.rice.lu_rou_large",
+          "name": "魯肉飯（大）",
+          "price": 55
+        },
+        {
+          "id": "formosa_chang.rice.chicken_rice",
+          "name": "雞肉飯",
+          "price": 60
+        },
+        {
+          "id": "formosa_chang.rice.pork_chop_rice",
+          "name": "香滷排骨飯",
+          "price": 110
+        },
+        {
+          "id": "formosa_chang.rice.chicken_leg_rice",
+          "name": "香烤雞腿飯",
+          "price": 125
+        },
+        {
+          "id": "formosa_chang.rice.belly_rice",
+          "name": "五花肉飯",
+          "price": 95
+        },
+        {
+          "id": "formosa_chang.rice.fried_egg_rice",
+          "name": "煎蛋魯肉飯",
+          "price": 60
+        },
+        {
+          "id": "formosa_chang.rice.veggie_rice",
+          "name": "蔬食魯肉飯",
+          "price": 55,
+          "availability": {
+            "kind": "limited",
+            "from": "2025-12-01",
+            "until": "2026-03-31"
+          }
+        }
+      ]
+    },
+    {
+      "id": "soup",
+      "name": "湯品",
+      "items": [
+        {
+          "id": "formosa_chang.soup.pork_rib_soup",
+          "name": "苦瓜排骨湯",
+          "price": 60
+        },
+        {
+          "id": "formosa_chang.soup.radish_soup",
+          "name": "蘿蔔排骨湯",
+          "price": 60
+        },
+        {
+          "id": "formosa_chang.soup.mushroom_chicken",
+          "name": "香菇雞湯",
+          "price": 75
+        },
+        {
+          "id": "formosa_chang.soup.egg_drop",
+          "name": "蛋花湯",
+          "price": 30
+        },
+        {
+          "id": "formosa_chang.soup.seaweed_soup",
+          "name": "紫菜湯",
+          "price": 30
+        },
+        {
+          "id": "formosa_chang.soup.pork_intestine",
+          "name": "四神湯",
+          "price": 70
+        },
+        {
+          "id": "formosa_chang.soup.fish_ball_soup",
+          "name": "魚丸湯",
+          "price": 45
+        },
+        {
+          "id": "formosa_chang.soup.winter_melon_soup",
+          "name": "冬瓜排骨湯",
+          "price": 60,
+          "availability": {
+            "kind": "limited",
+            "from": "2026-06-01",
+            "until": "2026-09-30"
+          }
+        }
+      ]
+    },
+    {
+      "id": "side",
+      "name": "小菜",
+      "items": [
+        {
+          "id": "formosa_chang.side.braised_egg",
+          "name": "滷蛋",
+          "price": 20
+        },
+        {
+          "id": "formosa_chang.side.braised_tofu",
+          "name": "滷豆腐",
+          "price": 25
+        },
+        {
+          "id": "formosa_chang.side.braised_bamboo",
+          "name": "滷筍絲",
+          "price": 30
+        },
+        {
+          "id": "formosa_chang.side.cabbage",
+          "name": "燙青菜",
+          "price": 35
+        },
+        {
+          "id": "formosa_chang.side.bamboo_shoot",
+          "name": "涼拌筍絲",
+          "price": 35
+        },
+        {
+          "id": "formosa_chang.side.seaweed",
+          "name": "涼拌海帶",
+          "price": 30
+        },
+        {
+          "id": "formosa_chang.side.pig_ear",
+          "name": "滷豬耳朵",
+          "price": 60
+        },
+        {
+          "id": "formosa_chang.side.braised_kelp",
+          "name": "滷海帶",
+          "price": 25
+        },
+        {
+          "id": "formosa_chang.side.pickled_radish",
+          "name": "醃蘿蔔",
+          "price": 25
+        }
+      ]
+    },
+    {
+      "id": "noodle",
+      "name": "麵食",
+      "items": [
+        {
+          "id": "formosa_chang.noodle.dry_noodle",
+          "name": "乾麵",
+          "price": 45
+        },
+        {
+          "id": "formosa_chang.noodle.soup_noodle",
+          "name": "湯麵",
+          "price": 45
+        },
+        {
+          "id": "formosa_chang.noodle.thick_noodle",
+          "name": "米粉湯",
+          "price": 45
+        },
+        {
+          "id": "formosa_chang.noodle.wonton_noodle",
+          "name": "餛飩麵",
+          "price": 70
+        },
+        {
+          "id": "formosa_chang.noodle.beef_noodle",
+          "name": "紅燒牛肉麵",
+          "price": 140
+        }
+      ]
+    },
+    {
+      "id": "set",
+      "name": "套餐",
+      "items": [
+        {
+          "id": "formosa_chang.set.classic_set",
+          "name": "經典魯肉飯套餐",
+          "price": 120
+        },
+        {
+          "id": "formosa_chang.set.chicken_set",
+          "name": "雞肉飯套餐",
+          "price": 140
+        },
+        {
+          "id": "formosa_chang.set.pork_chop_set",
+          "name": "排骨飯套餐",
+          "price": 180
+        },
+        {
+          "id": "formosa_chang.set.chicken_leg_set",
+          "name": "雞腿飯套餐",
+          "price": 195
+        },
+        {
+          "id": "formosa_chang.set.kids_set",
+          "name": "兒童餐",
+          "price": 110
+        }
+      ]
+    },
+    {
+      "id": "drink",
+      "name": "飲品",
+      "items": [
+        {
+          "id": "formosa_chang.drink.winter_melon",
+          "name": "冬瓜茶",
+          "price": 30
+        },
+        {
+          "id": "formosa_chang.drink.black_tea",
+          "name": "古早味紅茶",
+          "price": 30
+        },
+        {
+          "id": "formosa_chang.drink.plum_juice",
+          "name": "酸梅湯",
+          "price": 35
+        },
+        {
+          "id": "formosa_chang.drink.soy_milk",
+          "name": "豆漿",
+          "price": 30
+        },
+        {
+          "id": "formosa_chang.drink.herbal_tea",
+          "name": "青草茶",
+          "price": 35
+        },
+        {
+          "id": "formosa_chang.drink.sugarcane",
+          "name": "甘蔗汁",
+          "price": 40,
+          "availability": "delisted"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 3,
+  "contentVersion": 1,
+  "id": "starbucks",
+  "name": "星巴克",
+  "mark": "☕",
+  "tint": {
+    "light": "#065F46",
+    "dark": "#10B981"
+  },
+  "categories": [
+    {
+      "id": "espresso",
+      "name": "濃縮咖啡",
+      "items": [
+        {
+          "id": "starbucks.espresso.americano",
+          "name": "美式咖啡",
+          "price": 100
+        },
+        {
+          "id": "starbucks.espresso.latte",
+          "name": "拿鐵",
+          "price": 120
+        },
+        {
+          "id": "starbucks.espresso.cappuccino",
+          "name": "卡布奇諾",
+          "price": 120
+        },
+        {
+          "id": "starbucks.espresso.caramel_macchiato",
+          "name": "焦糖瑪奇朵",
+          "price": 145
+        },
+        {
+          "id": "starbucks.espresso.mocha",
+          "name": "摩卡",
+          "price": 140
+        },
+        {
+          "id": "starbucks.espresso.white_mocha",
+          "name": "白巧克力摩卡",
+          "price": 150
+        },
+        {
+          "id": "starbucks.espresso.flat_white",
+          "name": "馥列白",
+          "price": 140
+        },
+        {
+          "id": "starbucks.espresso.espresso_shot",
+          "name": "濃縮咖啡",
+          "price": 85
+        },
+        {
+          "id": "starbucks.espresso.cortado",
+          "name": "可塔朵",
+          "price": 120
+        }
+      ]
+    },
+    {
+      "id": "brew",
+      "name": "手沖與冰釀",
+      "items": [
+        {
+          "id": "starbucks.brew.drip",
+          "name": "每日精選咖啡",
+          "price": 90
+        },
+        {
+          "id": "starbucks.brew.pour_over",
+          "name": "手沖咖啡",
+          "price": 150
+        },
+        {
+          "id": "starbucks.brew.cold_brew",
+          "name": "冰搖濃縮咖啡",
+          "price": 130
+        },
+        {
+          "id": "starbucks.brew.nitro",
+          "name": "氮氣冷萃咖啡",
+          "price": 160
+        },
+        {
+          "id": "starbucks.brew.iced_shaken",
+          "name": "冰搖紅茶咖啡",
+          "price": 140
+        }
+      ]
+    },
+    {
+      "id": "frappuccino",
+      "name": "星冰樂",
+      "items": [
+        {
+          "id": "starbucks.frappuccino.coffee_frap",
+          "name": "咖啡星冰樂",
+          "price": 140
+        },
+        {
+          "id": "starbucks.frappuccino.caramel_frap",
+          "name": "焦糖可可碎片星冰樂",
+          "price": 165
+        },
+        {
+          "id": "starbucks.frappuccino.java_chip",
+          "name": "爪哇奇普星冰樂",
+          "price": 165
+        },
+        {
+          "id": "starbucks.frappuccino.matcha_frap",
+          "name": "抹茶星冰樂",
+          "price": 155
+        },
+        {
+          "id": "starbucks.frappuccino.strawberry_frap",
+          "name": "草莓星冰樂",
+          "price": 155
+        },
+        {
+          "id": "starbucks.frappuccino.mango_frap",
+          "name": "芒果百香星冰樂",
+          "price": 165,
+          "availability": {
+            "kind": "limited",
+            "from": "2026-06-01",
+            "until": "2026-09-30"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tea",
+      "name": "茶與其他",
+      "items": [
+        {
+          "id": "starbucks.tea.earl_grey_latte",
+          "name": "伯爵茶拿鐵",
+          "price": 130
+        },
+        {
+          "id": "starbucks.tea.matcha_latte",
+          "name": "抹茶那堤",
+          "price": 140
+        },
+        {
+          "id": "starbucks.tea.chai_latte",
+          "name": "印度香料茶那堤",
+          "price": 140
+        },
+        {
+          "id": "starbucks.tea.english_breakfast",
+          "name": "英式早餐茶",
+          "price": 100
+        },
+        {
+          "id": "starbucks.tea.hot_chocolate",
+          "name": "熱可可",
+          "price": 130
+        },
+        {
+          "id": "starbucks.tea.yuzu_tea",
+          "name": "柚子綠茶",
+          "price": 130,
+          "availability": {
+            "kind": "limited",
+            "from": "2026-01-01",
+            "until": "2026-04-30"
+          }
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "name": "餐點",
+      "items": [
+        {
+          "id": "starbucks.food.ham_cheese_sandwich",
+          "name": "火腿起司帕尼尼",
+          "price": 120
+        },
+        {
+          "id": "starbucks.food.chicken_sandwich",
+          "name": "煙燻雞肉帕尼尼",
+          "price": 130
+        },
+        {
+          "id": "starbucks.food.egg_salad",
+          "name": "雞蛋沙拉三明治",
+          "price": 95
+        },
+        {
+          "id": "starbucks.food.caesar_salad",
+          "name": "凱撒雞肉沙拉",
+          "price": 145
+        },
+        {
+          "id": "starbucks.food.bagel",
+          "name": "原味貝果",
+          "price": 60
+        },
+        {
+          "id": "starbucks.food.croissant",
+          "name": "可頌",
+          "price": 65
+        },
+        {
+          "id": "starbucks.food.chicken_wrap",
+          "name": "墨西哥雞肉捲",
+          "price": 125
+        }
+      ]
+    },
+    {
+      "id": "bakery",
+      "name": "烘焙",
+      "items": [
+        {
+          "id": "starbucks.bakery.cheesecake",
+          "name": "紐約起司蛋糕",
+          "price": 130
+        },
+        {
+          "id": "starbucks.bakery.chocolate_cake",
+          "name": "經典巧克力蛋糕",
+          "price": 125
+        },
+        {
+          "id": "starbucks.bakery.tiramisu",
+          "name": "提拉米蘇",
+          "price": 135
+        },
+        {
+          "id": "starbucks.bakery.blueberry_muffin",
+          "name": "藍莓馬芬",
+          "price": 75
+        },
+        {
+          "id": "starbucks.bakery.chocolate_chip_cookie",
+          "name": "巧克力豆餅乾",
+          "price": 65
+        },
+        {
+          "id": "starbucks.bakery.scone",
+          "name": "原味司康",
+          "price": 70
+        },
+        {
+          "id": "starbucks.bakery.madeleine",
+          "name": "瑪德蓮",
+          "price": 60,
+          "availability": "delisted"
+        },
+        {
+          "id": "starbucks.bakery.pound_cake",
+          "name": "檸檬磅蛋糕",
+          "price": 85
+        }
+      ]
+    }
+  ]
+}
