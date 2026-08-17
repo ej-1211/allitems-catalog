@@ -3,58 +3,73 @@
   "seeds": [
     {
       "id": "saizeriya",
-      "contentVersion": 8,
+      "contentVersion": 1,
       "path": "saizeriya.json"
     },
     {
       "id": "mcdonalds",
-      "contentVersion": 3,
+      "contentVersion": 1,
       "path": "mcdonalds.json"
     },
     {
       "id": "fifty_lan",
-      "contentVersion": 4,
+      "contentVersion": 1,
       "path": "fifty_lan.json"
     },
     {
       "id": "mos_burger",
-      "contentVersion": 2,
+      "contentVersion": 1,
       "path": "mos_burger.json"
     },
     {
       "id": "kfc",
-      "contentVersion": 2,
+      "contentVersion": 1,
       "path": "kfc.json"
     },
     {
-      "id": "starbucks",
-      "contentVersion": 2,
-      "path": "starbucks.json"
-    },
-    {
       "id": "louisa",
-      "contentVersion": 2,
+      "contentVersion": 1,
       "path": "louisa.json"
     },
     {
       "id": "milksha",
-      "contentVersion": 2,
+      "contentVersion": 1,
       "path": "milksha.json"
     },
     {
       "id": "chingshin",
-      "contentVersion": 2,
+      "contentVersion": 1,
       "path": "chingshin.json"
     },
     {
-      "id": "formosa_chang",
-      "contentVersion": 2,
-      "path": "formosa_chang.json"
+      "id": "bafang",
+      "contentVersion": 1,
+      "path": "bafang.json"
     },
     {
-      "id": "bafang",
-      "contentVersion": 2,
-      "path": "bafang.json"
+      "id": "coco",
+      "contentVersion": 1,
+      "path": "coco.json"
+    },
+    {
+      "id": "kebuke",
+      "contentVersion": 1,
+      "path": "kebuke.json"
+    },
+    {
+      "id": "guiji",
+      "contentVersion": 1,
+      "path": "guiji.json"
+    },
+    {
+      "id": "subway",
+      "contentVersion": 1,
+      "path": "subway.json"
+    },
+    {
+      "id": "sukiya",
+      "contentVersion": 1,
+      "path": "sukiya.json"
     }
   ]
 }

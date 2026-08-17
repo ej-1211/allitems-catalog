@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "contentVersion": 2,
+  "contentVersion": 1,
   "id": "milksha",
   "name": "迷客夏",
   "mark": "🥤",
@@ -8,271 +8,556 @@
     "light": "#0E7490",
     "dark": "#22D3EE"
   },
+  "priceNote": "價格為北部門市、單點、最小杯型的價格。中南部多數品項便宜 5 元，百貨商場與 plus 門市另有價目。",
   "categories": [
     {
-      "id": "fresh_milk",
-      "name": "鮮奶茶",
+      "id": "new",
+      "name": "新品",
       "items": [
         {
-          "id": "milksha.fresh_milk.earl_grey_milk",
-          "name": "伯爵鮮奶茶",
+          "id": "milksha.new.summer_custard_black_tea",
+          "name": "夏日卡士達紅茶",
+          "price": 55,
+          "note": "南 50 元"
+        },
+        {
+          "id": "milksha.new.vanilla_cloud_latte",
+          "name": "香草雲朵拿鐵",
+          "price": 80,
+          "note": "南 75 元"
+        },
+        {
+          "id": "milksha.new.vanilla_cream_latte",
+          "name": "香草夾心拿鐵",
+          "price": 90,
+          "note": "南 85 元"
+        }
+      ]
+    },
+    {
+      "id": "seasonal",
+      "name": "季節限定",
+      "items": [
+        {
+          "id": "milksha.seasonal.lychee_jasmine",
+          "name": "荔荔茉莉",
+          "price": 50,
+          "availability": {
+            "kind": "limited"
+          }
+        },
+        {
+          "id": "milksha.seasonal.lychee_peach_coconut_jelly",
+          "name": "荔荔蜜桃椰果",
           "price": 65,
-          "note": "招牌"
+          "availability": {
+            "kind": "limited"
+          }
         },
         {
-          "id": "milksha.fresh_milk.assam_milk",
-          "name": "阿薩姆鮮奶茶",
-          "price": 60
+          "id": "milksha.seasonal.lychee_rich_fresh_milk_smoothie",
+          "name": "荔多鮮奶果昔",
+          "price": 60,
+          "availability": {
+            "kind": "limited"
+          }
         },
         {
-          "id": "milksha.fresh_milk.jasmine_milk",
-          "name": "茉莉鮮奶茶",
-          "price": 60
+          "id": "milksha.seasonal.peach_oolong",
+          "name": "蜜桃烏龍",
+          "price": 70,
+          "availability": {
+            "kind": "limited"
+          }
         },
         {
-          "id": "milksha.fresh_milk.oolong_milk",
-          "name": "烏龍鮮奶茶",
-          "price": 65
+          "id": "milksha.seasonal.peach_jasmine",
+          "name": "蜜桃茉莉",
+          "price": 70,
+          "availability": {
+            "kind": "limited"
+          }
         },
         {
-          "id": "milksha.fresh_milk.black_sugar_milk",
-          "name": "黑糖鮮奶",
-          "price": 70
+          "id": "milksha.seasonal.summer_isle_fruit_tea",
+          "name": "夏嶼果茶",
+          "price": 65,
+          "availability": {
+            "kind": "limited"
+          }
         },
         {
-          "id": "milksha.fresh_milk.brown_sugar_pearl",
-          "name": "黑糖珍珠鮮奶",
-          "price": 75
+          "id": "milksha.seasonal.sea_salt_mango_green",
+          "name": "海鹽芒果綠",
+          "price": 65,
+          "availability": {
+            "kind": "limited"
+          }
         },
         {
-          "id": "milksha.fresh_milk.matcha_milk",
-          "name": "抹茶鮮奶",
-          "price": 75
+          "id": "milksha.seasonal.sugarcane_cup_red_pomelo_jelly_drink",
+          "name": "蔗杯紅柚凍飲",
+          "price": 75,
+          "availability": {
+            "kind": "limited"
+          }
+        }
+      ]
+    },
+    {
+      "id": "caffeine_free",
+      "name": "無咖啡因",
+      "items": [
+        {
+          "id": "milksha.caffeine_free.osmanthus_buckwheat",
+          "name": "桂香輕蕎麥",
+          "price": 55,
+          "regions": [
+            "central",
+            "tainan",
+            "kaoping"
+          ]
         },
         {
-          "id": "milksha.fresh_milk.taro_milk",
-          "name": "芋頭鮮奶",
-          "price": 80
+          "id": "milksha.caffeine_free.light_buckwheat",
+          "name": "輕纖蕎麥茶",
+          "price": 45
         },
         {
-          "id": "milksha.fresh_milk.chocolate_milk",
-          "name": "巧克力鮮奶",
-          "price": 70
+          "id": "milksha.caffeine_free.light_fibre_buckwheat_latte",
+          "name": "輕纖蕎麥拿鐵",
+          "price": 65,
+          "note": "L 75 元"
         },
         {
-          "id": "milksha.fresh_milk.charcoal_milk",
-          "name": "炭焙鮮奶茶",
-          "price": 70
+          "id": "milksha.caffeine_free.cassia_barley",
+          "name": "焙香決明大麥",
+          "price": 35
         },
         {
-          "id": "milksha.fresh_milk.honey_milk",
-          "name": "蜂蜜鮮奶茶",
-          "price": 70
+          "id": "milksha.caffeine_free.roasted_barley_latte",
+          "name": "焙香大麥拿鐵",
+          "price": 55,
+          "note": "L北 65 元；M中南 50 元；L中南 60 元"
+        },
+        {
+          "id": "milksha.caffeine_free.native_winter_melon_tea",
+          "name": "原鄉冬瓜茶",
+          "price": 40
+        },
+        {
+          "id": "milksha.caffeine_free.winter_melon_lemon",
+          "name": "冬瓜檸檬/麥茶",
+          "price": 55
         }
       ]
     },
     {
       "id": "tea",
-      "name": "純茶",
+      "name": "醇萃茶",
       "items": [
         {
+          "id": "milksha.tea.nabei_black_tea",
+          "name": "娜杯紅茶",
+          "price": 45,
+          "note": "中南 40 元"
+        },
+        {
+          "id": "milksha.tea.earl_grey",
+          "name": "伯爵紅茶",
+          "price": 40,
+          "note": "中南 35 元"
+        },
+        {
+          "id": "milksha.tea.taisho_black_tea",
+          "name": "大正紅茶",
+          "price": 40,
+          "note": "中南 35 元"
+        },
+        {
+          "id": "milksha.tea.first_dew_green",
+          "name": "原片初露青茶",
+          "price": 40,
+          "note": "中南 35 元"
+        },
+        {
           "id": "milksha.tea.jasmine_green",
-          "name": "茉莉綠茶",
-          "price": 35
+          "name": "茉莉原淬綠茶",
+          "price": 40,
+          "note": "中南 35 元"
         },
         {
-          "id": "milksha.tea.assam_black",
-          "name": "阿薩姆紅茶",
-          "price": 35
-        },
-        {
-          "id": "milksha.tea.four_season",
-          "name": "四季春",
-          "price": 35
-        },
-        {
-          "id": "milksha.tea.golden_oolong",
-          "name": "黃金烏龍",
-          "price": 40
-        },
-        {
-          "id": "milksha.tea.roasted_oolong",
-          "name": "焙火烏龍",
-          "price": 45
-        },
-        {
-          "id": "milksha.tea.buckwheat",
-          "name": "黃金蕎麥茶",
-          "price": 40
-        },
-        {
-          "id": "milksha.tea.mugwort_tea",
-          "name": "艾草茶",
-          "price": 45
-        },
-        {
-          "id": "milksha.tea.barley_tea",
-          "name": "決明大麥茶",
-          "price": 40
+          "id": "milksha.tea.amber_peak_oolong",
+          "name": "琥珀高峰烏龍",
+          "price": 40,
+          "note": "中南 35 元"
         }
       ]
     },
     {
-      "id": "fruit",
-      "name": "果茶",
+      "id": "fruit_tea",
+      "name": "鮮調果茶",
       "items": [
         {
-          "id": "milksha.fruit.lemon_green",
-          "name": "檸檬綠茶",
-          "price": 55
-        },
-        {
-          "id": "milksha.fruit.passion_fruit",
-          "name": "百香果綠茶",
-          "price": 60
-        },
-        {
-          "id": "milksha.fruit.grapefruit_green",
-          "name": "葡萄柚綠茶",
-          "price": 65
-        },
-        {
-          "id": "milksha.fruit.kumquat_lemon",
-          "name": "金桔檸檬",
-          "price": 55
-        },
-        {
-          "id": "milksha.fruit.winter_melon_lemon",
-          "name": "冬瓜檸檬",
+          "id": "milksha.fruit_tea.osmanthus_whole_leaf_green",
+          "name": "桂香原片青",
           "price": 50
         },
         {
-          "id": "milksha.fruit.peach_oolong",
-          "name": "水蜜桃烏龍",
-          "price": 65,
-          "availability": {
-            "kind": "limited",
-            "from": "2026-06-01",
-            "until": "2026-09-30"
-          }
-        },
-        {
-          "id": "milksha.fruit.lychee_black",
-          "name": "荔枝紅茶",
-          "price": 65,
-          "availability": {
-            "kind": "limited",
-            "from": "2026-05-15",
-            "until": "2026-09-15"
-          }
-        }
-      ]
-    },
-    {
-      "id": "special",
-      "name": "特調",
-      "items": [
-        {
-          "id": "milksha.special.mugwort_milk",
-          "name": "艾草鮮奶",
-          "price": 75
-        },
-        {
-          "id": "milksha.special.oat_milk_tea",
-          "name": "燕麥鮮奶茶",
-          "price": 75
-        },
-        {
-          "id": "milksha.special.purple_rice",
-          "name": "紫米鮮奶",
-          "price": 80
-        },
-        {
-          "id": "milksha.special.black_tea_latte",
-          "name": "紅茶拿鐵",
-          "price": 70
-        },
-        {
-          "id": "milksha.special.green_bean",
-          "name": "綠豆沙牛奶",
-          "price": 70
-        },
-        {
-          "id": "milksha.special.sesame_milk",
-          "name": "芝麻鮮奶",
-          "price": 80,
-          "availability": {
-            "kind": "limited",
-            "from": "2025-12-01",
-            "until": "2026-03-31"
-          }
-        }
-      ]
-    },
-    {
-      "id": "winter_melon",
-      "name": "冬瓜系列",
-      "items": [
-        {
-          "id": "milksha.winter_melon.winter_melon",
-          "name": "冬瓜茶",
-          "price": 40
-        },
-        {
-          "id": "milksha.winter_melon.winter_melon_tea",
-          "name": "冬瓜青茶",
-          "price": 45
-        },
-        {
-          "id": "milksha.winter_melon.winter_melon_milk",
-          "name": "冬瓜鮮奶",
+          "id": "milksha.fruit_tea.osmanthus_lime_honey_starch_jelly",
+          "name": "桂香青檸蜂蜜粉粿",
           "price": 65
         },
         {
-          "id": "milksha.winter_melon.winter_melon_pearl",
-          "name": "冬瓜珍珠鮮奶",
+          "id": "milksha.fruit_tea.orange_green_tea",
+          "name": "柳丁綠茶/青茶",
+          "price": 70,
+          "note": "中南 65 元"
+        },
+        {
+          "id": "milksha.fruit_tea.white_sugarcane_green_oolong",
+          "name": "白甘蔗青茶",
+          "price": 75,
+          "note": "中南 70 元"
+        },
+        {
+          "id": "milksha.fruit_tea.lime_aroma_tea",
+          "name": "青檸香茶",
           "price": 70
         },
         {
-          "id": "milksha.winter_melon.winter_melon_ai_yu",
-          "name": "冬瓜檸檬愛玉",
+          "id": "milksha.fruit_tea.honey_lemon_crystal_jelly",
+          "name": "蜂蜜檸檬晶凍",
+          "price": 60
+        },
+        {
+          "id": "milksha.fruit_tea.pomelo_green_tea",
+          "name": "香柚綠茶",
+          "price": 60
+        },
+        {
+          "id": "milksha.fruit_tea.yakult_green",
+          "name": "養樂多綠",
           "price": 55
+        },
+        {
+          "id": "milksha.fruit_tea.winter_melon_green_oolong",
+          "name": "冬瓜青茶",
+          "price": 55
+        },
+        {
+          "id": "milksha.fruit_tea.cold_brew_orange",
+          "name": "冰萃柳丁/檸檬",
+          "price": 65
         }
       ]
     },
     {
-      "id": "yogurt",
-      "name": "優格",
+      "id": "milk_tea",
+      "name": "醇濃鮮奶茶",
       "items": [
         {
-          "id": "milksha.yogurt.plain_yogurt",
-          "name": "原味優格",
-          "price": 70
+          "id": "milksha.milk_tea.nabei_black_tea_latte",
+          "name": "娜杯紅茶拿鐵",
+          "price": 60,
+          "note": "L北 70 元；M中南 55 元；L中南 65 元"
         },
         {
-          "id": "milksha.yogurt.berry_yogurt",
-          "name": "莓果優格",
+          "id": "milksha.milk_tea.earl_grey_latte",
+          "name": "伯爵紅茶拿鐵",
+          "price": 55,
+          "note": "L北 65 元；M中南 50 元；L中南 60 元"
+        },
+        {
+          "id": "milksha.milk_tea.taisho_black_tea_latte",
+          "name": "大正紅茶拿鐵",
+          "price": 55,
+          "note": "L北 65 元；M中南 50 元；L中南 60 元"
+        },
+        {
+          "id": "milksha.milk_tea.amber_oolong_latte",
+          "name": "琥珀烏龍拿鐵",
+          "price": 55,
+          "note": "L北 65 元；M中南 50 元；L中南 60 元"
+        },
+        {
+          "id": "milksha.milk_tea.jasmine_green_latte",
+          "name": "茉香綠茶拿鐵",
+          "price": 55,
+          "note": "L北 65 元；M中南 50 元；L中南 60 元"
+        },
+        {
+          "id": "milksha.milk_tea.whole_leaf_green_latte",
+          "name": "原片青茶拿鐵",
+          "price": 55,
+          "note": "L北 65 元；M中南 50 元；L中南 60 元"
+        },
+        {
+          "id": "milksha.milk_tea.pearl_black_tea_latte",
+          "name": "珍珠紅茶拿鐵(伯爵/大正)",
+          "price": 65,
+          "note": "L北 75 元；M中南 60 元；L中南 70 元"
+        },
+        {
+          "id": "milksha.milk_tea.pearl_nabei_black_tea_latte",
+          "name": "珍珠娜杯紅茶拿鐵",
+          "price": 70,
+          "note": "L北 80 元；M中南 65 元；L中南 75 元"
+        }
+      ]
+    },
+    {
+      "id": "fresh_milk",
+      "name": "綠光鮮奶",
+      "items": [
+        {
+          "id": "milksha.fresh_milk.taro_fresh_milk",
+          "name": "芋頭鮮奶",
+          "price": 70,
+          "note": "L北 90 元；M中南 65 元；L中南 85 元"
+        },
+        {
+          "id": "milksha.fresh_milk.pearl_fresh_milk",
+          "name": "珍珠鮮奶",
+          "price": 70,
+          "note": "L北 90 元；M中南 65 元；L中南 85 元"
+        },
+        {
+          "id": "milksha.fresh_milk.hand_stirred_brown_sugar_fresh_milk",
+          "name": "手炒黑糖鮮奶",
+          "price": 65,
+          "note": "L 85 元"
+        },
+        {
+          "id": "milksha.fresh_milk.grass_jelly_soft_jelly_milk",
+          "name": "嫩仙草凍奶",
+          "price": 65,
+          "note": "L 85 元"
+        },
+        {
+          "id": "milksha.fresh_milk.pure_milk_family",
+          "name": "綠光純鮮奶家庭號",
+          "price": 169
+        }
+      ]
+    },
+    {
+      "id": "mall",
+      "name": "百貨商場門市",
+      "items": [
+        {
+          "id": "milksha.mall.british_earl_grey_black_tea",
+          "name": "英倫伯爵紅茶",
+          "price": 45
+        },
+        {
+          "id": "milksha.mall.pearl_earl_grey_latte",
+          "name": "珍珠伯爵紅茶拿鐵",
+          "price": 70,
+          "note": "L 80 元"
+        },
+        {
+          "id": "milksha.mall.winter_melon_lemon",
+          "name": "冬瓜檸檬",
+          "price": 60
+        }
+      ]
+    },
+    {
+      "id": "plus",
+      "name": "迷客夏 plus",
+      "items": [
+        {
+          "id": "milksha.plus.genmai_matcha",
+          "name": "水之森玄米抹茶",
+          "price": 50
+        },
+        {
+          "id": "milksha.plus.golden_buckwheat",
+          "name": "黃金蕎麥茶",
+          "price": 50
+        },
+        {
+          "id": "milksha.plus.chantilly_black_tea",
+          "name": "香緹紅茶",
+          "price": 50
+        },
+        {
+          "id": "milksha.plus.fruity_oolong",
+          "name": "果香烏龍",
+          "price": 50
+        },
+        {
+          "id": "milksha.plus.morning_dew_jasmine",
+          "name": "朝露茉香綠茶",
+          "price": 50
+        },
+        {
+          "id": "milksha.plus.golden_buckwheat_latte",
+          "name": "黃金蕎麥茶拿鐵",
+          "price": 65,
+          "note": "L 75 元"
+        },
+        {
+          "id": "milksha.plus.chantilly_black_tea_latte",
+          "name": "香緹紅茶拿鐵",
+          "price": 65,
+          "note": "L 75 元"
+        },
+        {
+          "id": "milksha.plus.fruity_oolong_latte",
+          "name": "果香烏龍拿鐵",
+          "price": 65,
+          "note": "L 75 元"
+        },
+        {
+          "id": "milksha.plus.morning_dew_green_latte",
+          "name": "朝露綠茶拿鐵",
+          "price": 65,
+          "note": "L 75 元"
+        },
+        {
+          "id": "milksha.plus.mango_green_tea",
+          "name": "芒果綠茶",
           "price": 80
         },
         {
-          "id": "milksha.yogurt.mango_yogurt",
-          "name": "芒果優格",
+          "id": "milksha.plus.mango_plum_frappe",
+          "name": "芒果梅冰沙",
+          "price": 70
+        },
+        {
+          "id": "milksha.plus.peach_iced_tea",
+          "name": "蜜桃冰茶",
+          "price": 80
+        },
+        {
+          "id": "milksha.plus.orange_chantilly",
+          "name": "柳丁香緹",
+          "price": 85
+        },
+        {
+          "id": "milksha.plus.orange_morning_dew_green",
+          "name": "柳丁朝露綠茶",
+          "price": 85
+        },
+        {
+          "id": "milksha.plus.honey_green_plum",
+          "name": "蜂蜜青梅",
+          "price": 85
+        },
+        {
+          "id": "milksha.plus.qq_honey_green_plum",
+          "name": "QQ蜂蜜青梅",
+          "price": 95
+        },
+        {
+          "id": "milksha.plus.starch_jelly_peach_plum_iced_tea",
+          "name": "粉粿蜜桃梅冰茶",
+          "price": 90
+        },
+        {
+          "id": "milksha.plus.pearl_chantilly_black_tea_latte",
+          "name": "珍珠香緹紅茶拿鐵",
           "price": 80,
-          "availability": {
-            "kind": "limited",
-            "from": "2026-06-01",
-            "until": "2026-09-30"
-          }
+          "note": "L 90 元"
         },
         {
-          "id": "milksha.yogurt.aloe_yogurt",
-          "name": "蘆薈優格",
+          "id": "milksha.plus.pearl_morning_dew_green_latte",
+          "name": "珍珠朝露綠茶拿鐵",
+          "price": 80,
+          "note": "L 90 元"
+        },
+        {
+          "id": "milksha.plus.caramel_fresh_milk",
+          "name": "焦糖鮮奶",
           "price": 75
         },
         {
-          "id": "milksha.yogurt.passion_yogurt",
-          "name": "百香優格",
-          "price": 75
+          "id": "milksha.plus.pearl_caramel_fresh_milk",
+          "name": "珍珠焦糖鮮奶",
+          "price": 90
+        },
+        {
+          "id": "milksha.plus.double_q_fresh_milk",
+          "name": "雙Q鮮奶",
+          "price": 80
+        }
+      ]
+    },
+    {
+      "id": "taipei101",
+      "name": "台北 101 觀景台店",
+      "items": [
+        {
+          "id": "milksha.taipei101.jasmine_green",
+          "name": "茉香綠茶",
+          "price": 100
+        },
+        {
+          "id": "milksha.taipei101.uva_black_tea",
+          "name": "烏瓦紅茶",
+          "price": 100
+        },
+        {
+          "id": "milksha.taipei101.fresh_mango_smoothie",
+          "name": "鮮芒果昔",
+          "price": 180
+        },
+        {
+          "id": "milksha.taipei101.fresh_mango_green_tea",
+          "name": "鮮芒綠茶",
+          "price": 120
+        },
+        {
+          "id": "milksha.taipei101.pineapple_iced_tea",
+          "name": "鳳梨冰茶",
+          "price": 120
+        },
+        {
+          "id": "milksha.taipei101.tropical_fruit_tea",
+          "name": "熱帶水果茶",
+          "price": 130
+        },
+        {
+          "id": "milksha.taipei101.pearl_uva_black_tea_latte",
+          "name": "珍珠烏瓦紅茶拿鐵",
+          "price": 140
+        },
+        {
+          "id": "milksha.taipei101.pearl_hand_stirred_thick_brown_sugar_fresh_milk",
+          "name": "珍珠手炒厚黑糖鮮奶",
+          "price": 150
+        },
+        {
+          "id": "milksha.taipei101.matcha_fresh_milk",
+          "name": "水之森抹茶鮮奶",
+          "price": 150
+        },
+        {
+          "id": "milksha.taipei101.matcha_fresh_milk_frappe",
+          "name": "水之森抹茶鮮奶冰沙",
+          "price": 150
+        },
+        {
+          "id": "milksha.taipei101.taro_paste_handmade_fresh_milk",
+          "name": "手作芋泥鮮奶",
+          "price": 150
+        },
+        {
+          "id": "milksha.taipei101.strawberry_honey_cake_au_lait_ice_cream",
+          "name": "草莓蜂蜜蛋糕歐蕾冰淇淋",
+          "price": 120
+        },
+        {
+          "id": "milksha.taipei101.black_tea_latte_ice_cream",
+          "name": "紅茶拿鐵冰淇淋",
+          "price": 120
+        },
+        {
+          "id": "milksha.taipei101.irwin_mango_au_lait_ice_cream",
+          "name": "愛文芒果歐蕾冰淇淋",
+          "price": 120
         }
       ]
     }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "contentVersion": 2,
+  "contentVersion": 1,
   "id": "kfc",
   "name": "肯德基",
   "mark": "🍗",
@@ -8,284 +8,358 @@
     "light": "#7F1D1D",
     "dark": "#F87171"
   },
+  "priceNote": "價格為單點、隨時買得到的最低價（多種份量取最小份）。套餐與多人餐另計。",
   "categories": [
     {
-      "id": "chicken",
-      "name": "炸雞",
+      "id": "breakfast",
+      "name": "早餐",
       "items": [
         {
-          "id": "kfc.chicken.original_1",
-          "name": "原味蛋撻雞（單支）",
-          "price": 69,
-          "note": "招牌"
+          "id": "kfc.breakfast.peanut_tender_chicken_egg_burger",
+          "name": "花生吮指嫩雞蛋堡",
+          "price": 60,
+          "note": "套餐 79 元"
         },
         {
-          "id": "kfc.chicken.crispy_1",
-          "name": "咔啦脆雞（單支）",
-          "price": 69
+          "id": "kfc.breakfast.peanut_pork_floss_chicken_burger",
+          "name": "花生肉鬆嫩雞蛋堡",
+          "price": 60,
+          "note": "套餐 79 元"
         },
         {
-          "id": "kfc.chicken.spicy_1",
-          "name": "勁辣脆雞（單支）",
-          "price": 72
+          "id": "kfc.breakfast.tender_chicken_egg_burger",
+          "name": "吮指嫩雞蛋堡",
+          "price": 50,
+          "note": "套餐 69 元"
         },
         {
-          "id": "kfc.chicken.original_2",
-          "name": "原味炸雞 2 塊",
-          "price": 130
+          "id": "kfc.breakfast.peanut_cheese_burger",
+          "name": "花生起司堡",
+          "price": 35,
+          "note": "套餐 49 元"
         },
         {
-          "id": "kfc.chicken.crispy_4",
-          "name": "咔啦脆雞 4 塊",
-          "price": 250
+          "id": "kfc.breakfast.tender_chicken_egg_wrap",
+          "name": "吮指嫩雞蛋捲餅",
+          "price": 66,
+          "note": "套餐 85 元"
         },
         {
-          "id": "kfc.chicken.bucket_8",
-          "name": "全家餐桶 8 塊",
-          "price": 480
+          "id": "kfc.breakfast.bacon_hash_egg_wrap",
+          "name": "培根薯餅蛋捲餅",
+          "price": 56,
+          "note": "套餐 75 元"
         },
         {
-          "id": "kfc.chicken.hot_wings_4",
-          "name": "勁爆雞米花（大）",
-          "price": 99
+          "id": "kfc.breakfast.tender_chicken_flatbread",
+          "name": "吮指嫩雞燒餅",
+          "price": 56,
+          "note": "套餐 75 元"
         },
         {
-          "id": "kfc.chicken.popcorn_small",
-          "name": "勁爆雞米花（小）",
-          "price": 65
+          "id": "kfc.breakfast.club_omelette_flatbread",
+          "name": "總匯歐姆蛋燒餅",
+          "price": 50,
+          "note": "套餐 69 元"
         },
         {
-          "id": "kfc.chicken.drumstick_roasted",
-          "name": "紙包雞",
-          "price": 89
+          "id": "kfc.breakfast.quinoa_oat_chicken_congee_set",
+          "name": "紅藜燕麥嫩雞粥套餐",
+          "price": 46,
+          "note": "套餐 65 元"
         }
       ]
     },
     {
-      "id": "burger",
-      "name": "漢堡",
+      "id": "main",
+      "name": "主餐",
       "items": [
         {
-          "id": "kfc.burger.zinger",
+          "id": "kfc.main.purple_taro_salted_egg_chicken",
+          "name": "紫芋金來金沙雞",
+          "price": 138,
+          "note": "M經典餐 193 元；L絕配餐 218 元；XL超豪肯!餐 253 元"
+        },
+        {
+          "id": "kfc.main.crispy_chicken",
+          "name": "咔啦脆雞",
+          "price": 124,
+          "note": "M經典餐 179 元；L絕配餐 209 元；XL超豪肯!餐 239 元"
+        },
+        {
+          "id": "kfc.main.colonel_thin_crispy",
+          "name": "上校薄脆雞",
+          "price": 124,
+          "note": "M經典餐 179 元；L絕配餐 209 元；XL超豪肯!餐 239 元"
+        },
+        {
+          "id": "kfc.main.sichuan_pepper_chicken",
+          "name": "青花椒香麻脆雞",
+          "price": 1,
+          "note": "M經典餐 187 元；L絕配餐 201 元；XL超豪肯!餐 241 元；青花椒香麻脆雞2塊 138 元"
+        },
+        {
+          "id": "kfc.main.herb_paper_chicken",
+          "name": "義式香草紙包雞",
+          "price": 131,
+          "note": "M經典餐 186 元；L絕配餐 211 元；XL超豪肯!餐 246 元"
+        },
+        {
+          "id": "kfc.main.zinger",
           "name": "咔啦雞腿堡",
-          "price": 89,
-          "note": "招牌"
+          "price": 95,
+          "note": "M經典餐 150 元；L絕配餐 175 元；XL超豪肯!餐 210 元"
         },
         {
-          "id": "kfc.burger.spicy_zinger",
-          "name": "勁辣咔啦雞腿堡",
-          "price": 92
+          "id": "kfc.main.roe_surf_turf_shrimp_burger",
+          "name": "黃金魚子海陸Q蝦堡",
+          "price": 145,
+          "note": "M經典餐 200 元；L絕配餐 225 元；XL超豪肯!餐 260 元"
         },
         {
-          "id": "kfc.burger.shrimp",
-          "name": "花生熔岩雙牛堡",
-          "price": 129
-        },
-        {
-          "id": "kfc.burger.chicken_fillet",
-          "name": "上校雞塊堡",
-          "price": 79
-        },
-        {
-          "id": "kfc.burger.egg_tart_burger",
-          "name": "香草烤雞腿堡",
-          "price": 99
-        },
-        {
-          "id": "kfc.burger.double_down",
+          "id": "kfc.main.double_zinger",
           "name": "雙層咔啦雞腿堡",
-          "price": 139,
-          "availability": {
-            "kind": "limited",
-            "from": "2026-06-01",
-            "until": "2026-09-30"
-          }
+          "price": 145,
+          "note": "M經典餐 200 元；L絕配餐 225 元；XL超豪肯!餐 260 元"
         },
         {
-          "id": "kfc.burger.cheese_zinger",
-          "name": "起司咔啦雞腿堡",
-          "price": 99
+          "id": "kfc.main.new_orleans_burger",
+          "name": "紐奧良烤雞腿堡",
+          "price": 95,
+          "note": "M經典餐 150 元；L絕配餐 175 元；XL超豪肯!餐 210 元"
+        },
+        {
+          "id": "kfc.main.peanut_lava_zinger",
+          "name": "花生熔岩咔啦雞腿堡",
+          "price": 127,
+          "note": "M經典餐 182 元；L絕配餐 207 元；XL超豪肯!餐 242 元"
+        },
+        {
+          "id": "kfc.main.sichuan_pepper_zinger",
+          "name": "青花椒香麻咔啦雞腿堡",
+          "price": 105,
+          "note": "M經典餐 160 元；L絕配餐 185 元；XL超豪肯!餐 220 元"
+        },
+        {
+          "id": "kfc.main.smoked_crispy_burger",
+          "name": "美式煙燻咔脆雞堡",
+          "price": 80,
+          "note": "M經典餐 135 元；L絕配餐 160 元；XL超豪肯!餐 195 元"
+        },
+        {
+          "id": "kfc.main.salsa_chicken_wrap",
+          "name": "墨西哥莎莎雞腿捲",
+          "price": 105,
+          "note": "M經典餐 160 元；L絕配餐 185 元；XL超豪肯!餐 220 元"
+        },
+        {
+          "id": "kfc.main.peanut_cheese_strip_wrap",
+          "name": "花生起司雞柳捲",
+          "price": 73,
+          "note": "M經典餐 128 元；L絕配餐 153 元；XL超豪肯!餐 188 元"
+        },
+        {
+          "id": "kfc.main.smoked_chicken_cheese_wrap",
+          "name": "原味起司燻雞捲",
+          "price": 73,
+          "note": "M經典餐 128 元；L絕配餐 153 元；XL超豪肯!餐 188 元"
         }
       ]
     },
     {
-      "id": "rice",
-      "name": "飯食",
+      "id": "salad",
+      "name": "沙拉",
       "items": [
         {
-          "id": "kfc.rice.chicken_rice",
-          "name": "咔啦雞腿飯",
-          "price": 119
+          "id": "kfc.salad.colonel_roast_chicken_salad",
+          "name": "上校私廚烤雞腿溫沙拉",
+          "price": 135,
+          "note": "套餐 178 元"
         },
         {
-          "id": "kfc.rice.curry_rice",
-          "name": "咖哩雞腿飯",
-          "price": 125
+          "id": "kfc.salad.caesar_sweet_potato_salad",
+          "name": "凱薩烤地瓜沙拉",
+          "price": 129,
+          "note": "套餐 164 元"
+        }
+      ]
+    },
+    {
+      "id": "egg_tart",
+      "name": "蛋撻",
+      "items": [
+        {
+          "id": "kfc.egg_tart.biscoff_biscoff_egg_tart",
+          "name": "Biscoff焦糖脆餅蛋撻",
+          "price": 55,
+          "note": "禮盒6顆 288 元"
         },
         {
-          "id": "kfc.rice.mushroom_rice",
-          "name": "蕈菇燉飯",
-          "price": 109
-        },
-        {
-          "id": "kfc.rice.popcorn_rice",
-          "name": "雞米花蓋飯",
-          "price": 99
+          "id": "kfc.egg_tart.egg_tart",
+          "name": "原味蛋撻",
+          "price": 47,
+          "note": "禮盒6顆 247 元"
         }
       ]
     },
     {
       "id": "side",
-      "name": "副餐",
+      "name": "附餐與點心",
       "items": [
         {
-          "id": "kfc.side.fries_m",
-          "name": "薯條（中）",
-          "price": 50
+          "id": "kfc.side.strawberry_cream_biscuit",
+          "name": "草莓奶油比司吉",
+          "price": 65
         },
         {
-          "id": "kfc.side.fries_l",
-          "name": "薯條（大）",
-          "price": 60
+          "id": "kfc.side.colonel_thin_crispy",
+          "name": "上校薄脆雞(不辣)",
+          "price": 71
         },
         {
-          "id": "kfc.side.cheese_fries",
-          "name": "起司薯條",
-          "price": 75
+          "id": "kfc.side.golden_biscuit",
+          "name": "金黃比司吉",
+          "price": 59
         },
         {
-          "id": "kfc.side.corn",
-          "name": "玉米沙拉",
-          "price": 45
+          "id": "kfc.side.mozzarella_ball",
+          "name": "莫札瑞拉起司球",
+          "price": 59
         },
         {
-          "id": "kfc.side.coleslaw",
-          "name": "涼拌高麗菜",
-          "price": 45
+          "id": "kfc.side.shrimp_bite",
+          "name": "黃金超蝦塊",
+          "price": 59
         },
         {
-          "id": "kfc.side.mashed_potato",
-          "name": "薯泥",
-          "price": 45
+          "id": "kfc.side.egg_tart_ice_cream",
+          "name": "冰心蛋撻風味冰淇淋",
+          "price": 59
         },
         {
-          "id": "kfc.side.corn_soup",
-          "name": "玉米濃湯",
-          "price": 45
+          "id": "kfc.side.cod_ring",
+          "name": "鱈魚圈圈",
+          "price": 59
         },
         {
-          "id": "kfc.side.biscuit",
-          "name": "美式比司吉",
-          "price": 40
+          "id": "kfc.side.qq_ball",
+          "name": "雙色轉轉QQ球",
+          "price": 59
         },
         {
-          "id": "kfc.side.onion_rings",
-          "name": "洋蔥圈",
-          "price": 60,
-          "availability": "delisted"
-        }
-      ]
-    },
-    {
-      "id": "dessert",
-      "name": "點心",
-      "items": [
-        {
-          "id": "kfc.dessert.egg_tart",
-          "name": "蛋撻",
-          "price": 35,
-          "note": "招牌"
+          "id": "kfc.side.strawberry_cheese_daifuku",
+          "name": "草苺起司冰淇淋大福",
+          "price": 55
         },
         {
-          "id": "kfc.dessert.egg_tart_6",
-          "name": "蛋撻 6 入",
-          "price": 190
-        },
-        {
-          "id": "kfc.dessert.sundae_choc",
-          "name": "巧克力聖代",
-          "price": 45
-        },
-        {
-          "id": "kfc.dessert.sundae_strawberry",
-          "name": "草莓聖代",
-          "price": 45
-        },
-        {
-          "id": "kfc.dessert.ice_cream",
-          "name": "蛋捲冰淇淋",
-          "price": 25
-        },
-        {
-          "id": "kfc.dessert.mango_sundae",
-          "name": "芒果聖代",
-          "price": 55,
-          "availability": {
-            "kind": "limited",
-            "from": "2026-06-01",
-            "until": "2026-09-30"
-          }
-        },
-        {
-          "id": "kfc.dessert.tiramisu_tart",
-          "name": "提拉米蘇塔",
+          "id": "kfc.side.colonel_nugget",
+          "name": "上校雞塊",
           "price": 49,
-          "availability": {
-            "kind": "limited",
-            "from": "2025-12-01",
-            "until": "2026-03-31"
-          }
+          "note": "上校雞塊8塊 98 元"
+        },
+        {
+          "id": "kfc.side.crispy_fries",
+          "name": "香酥脆薯",
+          "price": 50,
+          "note": "香酥脆薯(大) 66 元"
+        },
+        {
+          "id": "kfc.side.corn_chowder",
+          "name": "玉米濃湯",
+          "price": 52,
+          "note": "玉米濃湯(小) 66 元"
+        },
+        {
+          "id": "kfc.side.garden_salad",
+          "name": "鮮蔬沙拉(千島醬)",
+          "price": 46
+        },
+        {
+          "id": "kfc.side.chicken_rice",
+          "name": "雞汁風味飯",
+          "price": 50
         }
       ]
     },
     {
       "id": "drink",
-      "name": "飲料",
+      "name": "飲料與湯品",
       "items": [
+        {
+          "id": "kfc.drink.iced_espresso",
+          "name": "冰義式咖啡",
+          "price": 69
+        },
+        {
+          "id": "kfc.drink.iced_espresso_latte",
+          "name": "冰義式拿鐵",
+          "price": 80
+        },
+        {
+          "id": "kfc.drink.hot_espresso",
+          "name": "熱義式咖啡",
+          "price": 36,
+          "note": "大 49 元"
+        },
+        {
+          "id": "kfc.drink.hot_espresso_latte",
+          "name": "熱義式拿鐵",
+          "price": 75
+        },
+        {
+          "id": "kfc.drink.hot_italian_cappuccino",
+          "name": "熱義式卡布奇諾",
+          "price": 75
+        },
+        {
+          "id": "kfc.drink.lipton_lemon_tea",
+          "name": "立頓檸檬風味紅茶",
+          "price": 33,
+          "note": "中 38 元"
+        },
+        {
+          "id": "kfc.drink.hot_black_tea",
+          "name": "熱紅茶",
+          "price": 36
+        },
+        {
+          "id": "kfc.drink.classic_iced_milk_tea",
+          "name": "經典冰奶茶",
+          "price": 38
+        },
+        {
+          "id": "kfc.drink.classic_hot_milk_tea",
+          "name": "經典熱奶茶",
+          "price": 35,
+          "note": "中 38 元"
+        },
+        {
+          "id": "kfc.drink.iced_unsweet_green_tea",
+          "name": "冰無糖綠茶",
+          "price": 33,
+          "note": "中 38 元"
+        },
+        {
+          "id": "kfc.drink.100_orange_juice",
+          "name": "100%柳橙汁",
+          "price": 40
+        },
+        {
+          "id": "kfc.drink.pepsi_bottle",
+          "name": "瓶裝百事可樂",
+          "price": 46
+        },
         {
           "id": "kfc.drink.pepsi",
           "name": "百事可樂",
-          "price": 40
+          "price": 33,
+          "note": "中 38 元"
         },
         {
-          "id": "kfc.drink.mirinda",
+          "id": "kfc.drink.seven_up",
           "name": "七喜",
-          "price": 40
-        },
-        {
-          "id": "kfc.drink.black_tea",
-          "name": "冰紅茶",
-          "price": 35
-        },
-        {
-          "id": "kfc.drink.green_tea",
-          "name": "冰綠茶",
-          "price": 35
-        },
-        {
-          "id": "kfc.drink.lemon_tea",
-          "name": "檸檬紅茶",
-          "price": 45
-        },
-        {
-          "id": "kfc.drink.milk_tea",
-          "name": "奶茶",
-          "price": 45
-        },
-        {
-          "id": "kfc.drink.orange_juice",
-          "name": "柳橙汁",
-          "price": 45
-        },
-        {
-          "id": "kfc.drink.coffee",
-          "name": "現磨咖啡",
-          "price": 55
-        },
-        {
-          "id": "kfc.drink.latte",
-          "name": "拿鐵",
-          "price": 70
+          "price": 33,
+          "note": "中 38 元"
         }
       ]
     }
