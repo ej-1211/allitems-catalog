@@ -330,54 +330,6 @@
           }
         }
       ]
-    },
-    {
-      "id": "kinji",
-      "name": "金蒔燒輕食",
-      "items": [
-        {
-          "id": "kebuke.kinji.kinji_savoury_mix",
-          "name": "金蒔鹹綜合",
-          "price": 75,
-          "note": "限定門市供應"
-        },
-        {
-          "id": "kebuke.kinji.kinji_sweet_mix",
-          "name": "金蒔甜綜合",
-          "price": 75,
-          "note": "限定門市供應"
-        },
-        {
-          "id": "kebuke.kinji.classic_original",
-          "name": "經典原味",
-          "price": 55,
-          "note": "限定門市供應"
-        },
-        {
-          "id": "kebuke.kinji.kinji_milk_crumble",
-          "name": "金蒔奶酥",
-          "price": 75,
-          "note": "限定門市供應"
-        },
-        {
-          "id": "kebuke.kinji.rich_chocolate",
-          "name": "濃巧克力",
-          "price": 65,
-          "note": "限定門市供應"
-        },
-        {
-          "id": "kebuke.kinji.peanut_mochi",
-          "name": "花生麻糬",
-          "price": 80,
-          "note": "限定門市供應"
-        },
-        {
-          "id": "kebuke.kinji.cheese_ham",
-          "name": "起司火腿",
-          "price": 65,
-          "note": "限定門市供應"
-        }
-      ]
     }
   ]
 }
