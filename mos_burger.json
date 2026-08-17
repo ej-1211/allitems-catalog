@@ -407,13 +407,21 @@
         },
         {
           "id": "mos_burger.side.hawaii_veg_salad",
-          "name": "夏威夷元氣鮮蔬沙拉(限量供應)",
-          "price": 55
+          "name": "夏威夷元氣鮮蔬沙拉",
+          "price": 55,
+          "note": "限量供應",
+          "availability": {
+            "kind": "limited"
+          }
         },
         {
           "id": "mos_burger.side.chicken_sweet_potato_salad",
-          "name": "雞肉地瓜總匯沙拉(限量供應)",
-          "price": 70
+          "name": "雞肉地瓜總匯沙拉",
+          "price": 70,
+          "note": "限量供應",
+          "availability": {
+            "kind": "limited"
+          }
         }
       ]
     },
