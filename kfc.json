@@ -77,14 +77,14 @@
         {
           "id": "kfc.main.purple_taro_salted_egg_chicken",
           "name": "紫芋金來金沙雞",
-          "price": 138,
-          "note": "M經典餐 193 元；L絕配餐 218 元；XL超豪肯!餐 253 元"
+          "price": 78,
+          "note": "2 塊 138 元；M經典餐 193 元；L絕配餐 218 元；XL超豪肯!餐 253 元"
         },
         {
           "id": "kfc.main.crispy_chicken",
           "name": "咔啦脆雞",
-          "price": 124,
-          "note": "M經典餐 179 元；L絕配餐 209 元；XL超豪肯!餐 239 元"
+          "price": 71,
+          "note": "2 塊 124 元；M經典餐 179 元；L絕配餐 209 元；XL超豪肯!餐 239 元"
         },
         {
           "id": "kfc.main.colonel_thin_crispy",
@@ -95,8 +95,8 @@
         {
           "id": "kfc.main.sichuan_pepper_chicken",
           "name": "青花椒香麻脆雞",
-          "price": 1,
-          "note": "M經典餐 187 元；L絕配餐 201 元；XL超豪肯!餐 241 元；青花椒香麻脆雞2塊 138 元"
+          "price": 75,
+          "note": "單點 78 元；2 塊 138 元；M經典餐 187 元；L絕配餐 201 元；XL超豪肯!餐 241 元"
         },
         {
           "id": "kfc.main.herb_paper_chicken",
