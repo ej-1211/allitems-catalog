@@ -1,0 +1,526 @@
+{
+  "schemaVersion": 3,
+  "contentVersion": 1,
+  "id": "coco",
+  "name": "CoCo 都可",
+  "mark": "🍹",
+  "tint": {
+    "light": "#9D174D",
+    "dark": "#F472B6"
+  },
+  "priceNote": "價格為單點、最小杯型（M）的價格。",
+  "categories": [
+    {
+      "id": "tea",
+      "name": "純茶",
+      "items": [
+        {
+          "id": "coco.tea.jasmine_green",
+          "name": "茉莉綠茶",
+          "price": 30,
+          "note": "L 35 元"
+        },
+        {
+          "id": "coco.tea.four_season_green_oolong",
+          "name": "四季春青茶",
+          "price": 30,
+          "note": "L 35 元"
+        },
+        {
+          "id": "coco.tea.young_oolong_21",
+          "name": "21歲輕烏龍",
+          "price": 30,
+          "note": "L 35 元"
+        },
+        {
+          "id": "coco.tea.handpicked_black_tea_v2",
+          "name": "手採紅茶2.0",
+          "price": 30,
+          "note": "L 35 元"
+        },
+        {
+          "id": "coco.tea.barley",
+          "name": "日安大麥(無咖啡因)",
+          "price": 30,
+          "note": "L 35 元"
+        },
+        {
+          "id": "coco.tea.rokujo_barley",
+          "name": "日安六条大麥",
+          "price": 35,
+          "note": "L 40 元"
+        },
+        {
+          "id": "coco.tea.hojicha",
+          "name": "日式焙茶",
+          "price": 35,
+          "note": "L 40 元"
+        },
+        {
+          "id": "coco.tea.buckwheat_four_season",
+          "name": "蕎麥四季春",
+          "price": 40,
+          "note": "L 45 元"
+        },
+        {
+          "id": "coco.tea.coconut_four_season",
+          "name": "四季珍椰青",
+          "price": 45,
+          "note": "L 50 元"
+        },
+        {
+          "id": "coco.tea.honey_jelly_black_tea",
+          "name": "蜜香凍紅茶",
+          "price": 40,
+          "note": "L 45 元"
+        },
+        {
+          "id": "coco.tea.honey_jelly_green_tea",
+          "name": "蜜香凍綠茶",
+          "price": 40,
+          "note": "L 45 元"
+        },
+        {
+          "id": "coco.tea.honey_jelly_green_oolong",
+          "name": "蜜香凍青茶",
+          "price": 40,
+          "note": "L 45 元"
+        },
+        {
+          "id": "coco.tea.grass_jelly_honey",
+          "name": "仙草蜜(無咖啡因)",
+          "price": 35,
+          "note": "L 40 元"
+        }
+      ]
+    },
+    {
+      "id": "milk_tea",
+      "name": "奶茶",
+      "items": [
+        {
+          "id": "coco.milk_tea.assam_milk_tea",
+          "name": "阿薩姆奶茶",
+          "price": 40,
+          "note": "L 50 元"
+        },
+        {
+          "id": "coco.milk_tea.jasmine_milk_tea",
+          "name": "茉香奶茶",
+          "price": 40,
+          "note": "L 50 元"
+        },
+        {
+          "id": "coco.milk_tea.pearl_milk_tea",
+          "name": "珍珠奶茶",
+          "price": 50,
+          "note": "L 60 元"
+        },
+        {
+          "id": "coco.milk_tea.pudding_milk_tea",
+          "name": "布丁奶茶",
+          "price": 50,
+          "note": "L 60 元"
+        },
+        {
+          "id": "coco.milk_tea.pink_pearl_milk_tea",
+          "name": "粉角奶茶",
+          "price": 60
+        },
+        {
+          "id": "coco.milk_tea.sago_milk_tea",
+          "name": "西谷米奶茶",
+          "price": 60
+        },
+        {
+          "id": "coco.milk_tea.qq_milk_tea",
+          "name": "QQ奶茶",
+          "price": 50,
+          "note": "L 60 元"
+        },
+        {
+          "id": "coco.milk_tea.triple_q_milk_tea",
+          "name": "3Q奶茶",
+          "price": 55,
+          "note": "L 65 元"
+        },
+        {
+          "id": "coco.milk_tea.milk_tea_trio",
+          "name": "奶茶三兄弟",
+          "price": 65
+        },
+        {
+          "id": "coco.milk_tea.hojicha_milk_tea",
+          "name": "日式焙奶茶",
+          "price": 45,
+          "note": "L 55 元"
+        },
+        {
+          "id": "coco.milk_tea.hojicha_pearl_milk_tea",
+          "name": "日焙珍珠奶茶",
+          "price": 55,
+          "note": "L 65 元"
+        },
+        {
+          "id": "coco.milk_tea.winter_roast_pearl_milk_tea",
+          "name": "冬韻擂焙珍奶",
+          "price": 70
+        }
+      ]
+    },
+    {
+      "id": "fresh_milk_tea",
+      "name": "鮮奶茶",
+      "items": [
+        {
+          "id": "coco.fresh_milk_tea.english_fresh_milk_tea",
+          "name": "英式鮮奶茶",
+          "price": 55,
+          "note": "L 70 元"
+        },
+        {
+          "id": "coco.fresh_milk_tea.pearl_fresh_milk_tea",
+          "name": "珍珠鮮奶茶",
+          "price": 65,
+          "note": "L 75 元"
+        },
+        {
+          "id": "coco.fresh_milk_tea.pink_pearl_fresh_milk_tea",
+          "name": "粉角鮮奶茶",
+          "price": 65,
+          "note": "L 75 元"
+        },
+        {
+          "id": "coco.fresh_milk_tea.qq_fresh_milk_tea",
+          "name": "QQ鮮奶茶",
+          "price": 65,
+          "note": "L 75 元"
+        },
+        {
+          "id": "coco.fresh_milk_tea.triple_q_fresh_milk_tea",
+          "name": "3Q鮮奶茶",
+          "price": 65,
+          "note": "L 75 元"
+        },
+        {
+          "id": "coco.fresh_milk_tea.hojicha_fresh_milk_tea",
+          "name": "日焙鮮奶茶",
+          "price": 65,
+          "note": "L 75 元"
+        },
+        {
+          "id": "coco.fresh_milk_tea.taro_milk",
+          "name": "芋頭牛奶",
+          "price": 75
+        },
+        {
+          "id": "coco.fresh_milk_tea.taro_pearl_milk",
+          "name": "芋頭珍珠牛奶",
+          "price": 80
+        },
+        {
+          "id": "coco.fresh_milk_tea.taro_sago_milk",
+          "name": "芋頭西谷米牛奶",
+          "price": 80
+        },
+        {
+          "id": "coco.fresh_milk_tea.taro_qq_milk",
+          "name": "芋頭QQ牛奶",
+          "price": 80
+        }
+      ]
+    },
+    {
+      "id": "fruit_tea",
+      "name": "果茶",
+      "items": [
+        {
+          "id": "coco.fruit_tea.passion_fruit_double_shot",
+          "name": "百香雙響炮",
+          "price": 70
+        },
+        {
+          "id": "coco.fruit_tea.grapefruit_fruit_chunk_tea",
+          "name": "葡萄柚果粒茶",
+          "price": 70
+        },
+        {
+          "id": "coco.fruit_tea.hpp_mango_pomelo",
+          "name": "HPP楊枝甘露(椰奶)",
+          "price": 70,
+          "note": "L 90 元"
+        },
+        {
+          "id": "coco.fruit_tea.lemon_max",
+          "name": "檸檬霸",
+          "price": 65
+        },
+        {
+          "id": "coco.fruit_tea.berry_duo_tea",
+          "name": "莓好雙果茶",
+          "price": 70,
+          "note": "L 75 元"
+        },
+        {
+          "id": "coco.fruit_tea.berry_duo_milk",
+          "name": "莓好雙果牛乳",
+          "price": 75,
+          "note": "L 85 元"
+        },
+        {
+          "id": "coco.fruit_tea.young_21_light_lemon_oolong",
+          "name": "21歲輕檸烏龍",
+          "price": 45,
+          "note": "L 55 元"
+        },
+        {
+          "id": "coco.fruit_tea.lemon_kumquat",
+          "name": "檸檬奇遇桔(萊香凍)",
+          "price": 55
+        },
+        {
+          "id": "coco.fruit_tea.passion_fruit_green_tea",
+          "name": "百香綠茶",
+          "price": 40,
+          "note": "L 50 元"
+        },
+        {
+          "id": "coco.fruit_tea.mango_green_tea",
+          "name": "芒果綠茶",
+          "price": 40,
+          "note": "L 50 元"
+        },
+        {
+          "id": "coco.fruit_tea.mango_leisure_chia_seed",
+          "name": "芒裡偷閒奇亞籽",
+          "price": 55
+        },
+        {
+          "id": "coco.fruit_tea.fresh_lemon_black_tea",
+          "name": "鮮檸檬紅茶",
+          "price": 40,
+          "note": "L 50 元"
+        },
+        {
+          "id": "coco.fruit_tea.fresh_lemon_green_tea",
+          "name": "鮮檸檬綠茶",
+          "price": 40,
+          "note": "L 50 元"
+        },
+        {
+          "id": "coco.fruit_tea.fresh_lemon_green_oolong",
+          "name": "鮮檸檬青茶",
+          "price": 40,
+          "note": "L 50 元"
+        },
+        {
+          "id": "coco.fruit_tea.honey_aroma_lemon_jelly_black_tea",
+          "name": "蜜香檸凍紅茶",
+          "price": 50,
+          "note": "L 60 元"
+        },
+        {
+          "id": "coco.fruit_tea.honey_aroma_lemon_jelly_green_tea",
+          "name": "蜜香檸凍綠茶",
+          "price": 50,
+          "note": "L 60 元"
+        },
+        {
+          "id": "coco.fruit_tea.honey_aroma_lemon_jelly_green_oolong",
+          "name": "蜜香檸凍青茶",
+          "price": 50,
+          "note": "L 60 元"
+        },
+        {
+          "id": "coco.fruit_tea.honey_aroma_lemon_jelly_winter_melon",
+          "name": "蜜香檸凍冬瓜",
+          "price": 50,
+          "note": "L 60 元"
+        },
+        {
+          "id": "coco.fruit_tea.lemon_winter_melon_dew",
+          "name": "檸檬冬瓜露",
+          "price": 40,
+          "note": "L 50 元"
+        },
+        {
+          "id": "coco.fruit_tea.buckwheat_winter_melon_dew",
+          "name": "蕎麥冬瓜露",
+          "price": 45,
+          "note": "L 50 元"
+        },
+        {
+          "id": "coco.fruit_tea.winter_melon_sago",
+          "name": "冬瓜西谷米",
+          "price": 40,
+          "note": "L 45 元"
+        },
+        {
+          "id": "coco.fruit_tea.kumquat_lemon",
+          "name": "金桔檸檬(無咖啡因)",
+          "price": 55,
+          "note": "L 65 元"
+        },
+        {
+          "id": "coco.fruit_tea.pink_pearl_lemon_winter_melon",
+          "name": "粉角檸檬冬瓜(無咖啡因)",
+          "price": 50,
+          "note": "L 60 元"
+        },
+        {
+          "id": "coco.fruit_tea.green_tea_yakult",
+          "name": "綠茶養樂多",
+          "price": 60
+        }
+      ]
+    },
+    {
+      "id": "coffee",
+      "name": "咖啡",
+      "items": [
+        {
+          "id": "coco.coffee.artisan_americano",
+          "name": "職人美式",
+          "price": 35
+        },
+        {
+          "id": "coco.coffee.artisan_latte",
+          "name": "職人拿鐵",
+          "price": 50
+        },
+        {
+          "id": "coco.coffee.pearl_artisan_latte",
+          "name": "珍珠職人拿鐵",
+          "price": 60
+        },
+        {
+          "id": "coco.coffee.pink_pearl_artisan_latte",
+          "name": "粉角職人拿鐵",
+          "price": 60
+        },
+        {
+          "id": "coco.coffee.coconut_artisan_latte",
+          "name": "生椰職人拿鐵",
+          "price": 60
+        },
+        {
+          "id": "coco.coffee.pink_pearl_coconut_latte",
+          "name": "粉角生椰拿鐵",
+          "price": 70
+        },
+        {
+          "id": "coco.coffee.pearl_brown_sugar_latte",
+          "name": "珍珠黑糖拿鐵",
+          "price": 80
+        },
+        {
+          "id": "coco.coffee.red_pomelo_lemon_americano",
+          "name": "紅柚香檸美式",
+          "price": 50
+        },
+        {
+          "id": "coco.coffee.sicilian_lemon_americano",
+          "name": "西西里手搗檸檬美式",
+          "price": 50
+        },
+        {
+          "id": "coco.coffee.taiwan_orange_americano",
+          "name": "台灣柳丁美式",
+          "price": 60
+        }
+      ]
+    },
+    {
+      "id": "frappe",
+      "name": "冰沙",
+      "items": [
+        {
+          "id": "coco.frappe.mung_bean",
+          "name": "綠豆沙",
+          "price": 60
+        },
+        {
+          "id": "coco.frappe.mung_bean_milk",
+          "name": "綠豆沙牛奶",
+          "price": 60,
+          "note": "L 75 元"
+        },
+        {
+          "id": "coco.frappe.mango_frappe",
+          "name": "芒果冰沙",
+          "price": 50,
+          "note": "L 60 元"
+        },
+        {
+          "id": "coco.frappe.mango_frappe_milk",
+          "name": "芒果沙牛奶",
+          "price": 60,
+          "note": "L 75 元"
+        }
+      ]
+    },
+    {
+      "id": "seasonal",
+      "name": "季節限定與新品",
+      "items": [
+        {
+          "id": "coco.seasonal.highland_avocado_shake",
+          "name": "高原酪梨奶昔杯杯",
+          "price": 69,
+          "note": "L 79 元",
+          "availability": {
+            "kind": "limited"
+          }
+        },
+        {
+          "id": "coco.seasonal.rich_taro_frappe",
+          "name": "濃芋冰沙",
+          "price": 66,
+          "availability": {
+            "kind": "limited"
+          }
+        },
+        {
+          "id": "coco.seasonal.grass_jelly_milk",
+          "name": "手作仙草凍乳",
+          "price": 70,
+          "availability": {
+            "kind": "limited"
+          }
+        },
+        {
+          "id": "coco.seasonal.red_fruit_apple",
+          "name": "紅果蘋安杯",
+          "price": 59,
+          "availability": {
+            "kind": "limited"
+          }
+        },
+        {
+          "id": "coco.seasonal.kale_apple",
+          "name": "羽衣蘋安杯",
+          "price": 69,
+          "availability": {
+            "kind": "limited"
+          }
+        },
+        {
+          "id": "coco.seasonal.jasmine28_light_milk_tea",
+          "name": "28茉輕乳茶",
+          "price": 60,
+          "availability": {
+            "kind": "limited"
+          }
+        },
+        {
+          "id": "coco.seasonal.jasmine28_pink_pearl_light_milk_tea",
+          "name": "28茉粉角輕乳茶",
+          "price": 70,
+          "availability": {
+            "kind": "limited"
+          }
+        }
+      ]
+    }
+  ]
+}

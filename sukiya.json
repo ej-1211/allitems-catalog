@@ -1,0 +1,416 @@
+{
+  "schemaVersion": 3,
+  "contentVersion": 1,
+  "id": "sukiya",
+  "name": "食其家",
+  "mark": "🍚",
+  "tint": {
+    "light": "#B91C1C",
+    "dark": "#FCA5A5"
+  },
+  "priceNote": "價格為單點、最小碗型的價格。套餐與加購另計。",
+  "categories": [
+    {
+      "id": "eel",
+      "name": "鰻魚丼",
+      "items": [
+        {
+          "id": "sukiya.eel.eel_beef_bowl",
+          "name": "鰻牛丼",
+          "price": 263,
+          "note": "飯大碗 273 元；超大碗 453 元"
+        },
+        {
+          "id": "sukiya.eel.soft_egg_eel_bowl",
+          "name": "溫玉鰻魚丼",
+          "price": 234,
+          "note": "飯大碗 244 元；超大碗 424 元"
+        },
+        {
+          "id": "sukiya.eel.eel_bowl",
+          "name": "鰻魚丼",
+          "price": 209,
+          "note": "飯大碗 219 元"
+        },
+        {
+          "id": "sukiya.eel.extra_large_eel_bowl",
+          "name": "超大鰻魚丼",
+          "price": 399
+        }
+      ]
+    },
+    {
+      "id": "beef",
+      "name": "牛丼",
+      "items": [
+        {
+          "id": "sukiya.beef.beef_bowl",
+          "name": "牛丼",
+          "price": 69,
+          "note": "中碗 89 元；肉大碗 119 元；大碗 129 元；超大碗 159 元；MEGA 199 元"
+        },
+        {
+          "id": "sukiya.beef.onion_soft_egg_beef_bowl",
+          "name": "洋蔥溫玉牛丼",
+          "price": 119,
+          "note": "中碗 139 元；肉大碗 169 元；大碗 179 元；超大碗 209 元；MEGA 249 元"
+        },
+        {
+          "id": "sukiya.beef.okra_beef_bowl",
+          "name": "秋葵牛丼",
+          "price": 99,
+          "note": "中碗 119 元；肉大碗 149 元；大碗 159 元；超大碗 189 元；MEGA 229 元"
+        },
+        {
+          "id": "sukiya.beef.kimchi_beef_bowl",
+          "name": "泡菜牛丼",
+          "price": 99,
+          "note": "中碗 119 元；肉大碗 149 元；大碗 159 元；超大碗 189 元；MEGA 229 元"
+        },
+        {
+          "id": "sukiya.beef.molten_cheese_beef_bowl",
+          "name": "熱熔起司牛丼",
+          "price": 119,
+          "note": "中碗 139 元；肉大碗 169 元；大碗 179 元；超大碗 209 元；MEGA 249 元"
+        },
+        {
+          "id": "sukiya.beef.cheese_beef_bowl",
+          "name": "起司牛丼",
+          "price": 99,
+          "note": "中碗 119 元；肉大碗 149 元；大碗 159 元；超大碗 189 元；MEGA 229 元"
+        },
+        {
+          "id": "sukiya.beef.scallion_soft_egg_beef_bowl",
+          "name": "蔥溫玉牛丼",
+          "price": 119,
+          "note": "中碗 139 元；肉大碗 169 元；大碗 179 元；超大碗 209 元；MEGA 249 元"
+        }
+      ]
+    },
+    {
+      "id": "grilled_beef",
+      "name": "牛燒肉丼",
+      "items": [
+        {
+          "id": "sukiya.grilled_beef.grilled_beef_bowl",
+          "name": "牛燒肉丼",
+          "price": 139,
+          "note": "飯大碗 149 元；超大碗 259 元"
+        },
+        {
+          "id": "sukiya.grilled_beef.onion_soft_egg_grilled_beef_bowl",
+          "name": "洋蔥溫玉牛燒肉丼",
+          "price": 189,
+          "note": "飯大碗 199 元；超大碗 309 元"
+        },
+        {
+          "id": "sukiya.grilled_beef.okra_grilled_beef_bowl",
+          "name": "秋葵牛燒肉丼",
+          "price": 169,
+          "note": "飯大碗 179 元；超大碗 289 元"
+        },
+        {
+          "id": "sukiya.grilled_beef.kimchi_grilled_beef_bowl",
+          "name": "泡菜牛燒肉丼",
+          "price": 169,
+          "note": "飯大碗 179 元；超大碗 289 元"
+        },
+        {
+          "id": "sukiya.grilled_beef.molten_cheese_grilled_beef_bowl",
+          "name": "熱熔起司牛燒肉丼",
+          "price": 189,
+          "note": "飯大碗 199 元；超大碗 309 元"
+        },
+        {
+          "id": "sukiya.grilled_beef.cheese_grilled_beef_bowl",
+          "name": "起司牛燒肉丼",
+          "price": 169,
+          "note": "飯大碗 179 元；超大碗 289 元"
+        },
+        {
+          "id": "sukiya.grilled_beef.scallion_soft_egg_grilled_beef_bowl",
+          "name": "蔥溫玉牛燒肉丼",
+          "price": 189,
+          "note": "飯大碗 199 元；超大碗 309 元"
+        }
+      ]
+    },
+    {
+      "id": "curry",
+      "name": "咖哩",
+      "items": [
+        {
+          "id": "sukiya.curry.beef_curry",
+          "name": "牛肉咖哩",
+          "price": 133,
+          "note": "中碗 153 元；大碗 183 元；MEGA 263 元"
+        },
+        {
+          "id": "sukiya.curry.soft_egg_beef_curry",
+          "name": "溫玉牛肉咖哩",
+          "price": 158,
+          "note": "中碗 178 元；大碗 208 元；MEGA 288 元"
+        },
+        {
+          "id": "sukiya.curry.molten_cheese_beef_curry",
+          "name": "熱熔起司牛肉咖哩",
+          "price": 183,
+          "note": "中碗 203 元；大碗 233 元；MEGA 313 元"
+        },
+        {
+          "id": "sukiya.curry.karaage_curry",
+          "name": "唐揚雞咖哩",
+          "price": 139,
+          "note": "中碗 159 元；大碗 189 元；MEGA 269 元"
+        },
+        {
+          "id": "sukiya.curry.molten_cheese_curry",
+          "name": "熱熔起司咖哩",
+          "price": 129,
+          "note": "中碗 149 元；大碗 179 元；MEGA 259 元"
+        },
+        {
+          "id": "sukiya.curry.house_curry",
+          "name": "特製咖哩",
+          "price": 79,
+          "note": "中碗 99 元；大碗 129 元；MEGA 209 元"
+        }
+      ]
+    },
+    {
+      "id": "pork",
+      "name": "薑燒豚丼",
+      "items": [
+        {
+          "id": "sukiya.pork.ginger_pork_bowl",
+          "name": "薑燒豚丼",
+          "price": 139,
+          "note": "飯大碗 149 元；超大碗 259 元"
+        },
+        {
+          "id": "sukiya.pork.soft_egg_ginger_pork_bowl",
+          "name": "溫玉薑燒豚丼",
+          "price": 164,
+          "note": "飯大碗 174 元；超大碗 284 元"
+        },
+        {
+          "id": "sukiya.pork.cheese_ginger_pork_bowl",
+          "name": "起司薑燒豚丼",
+          "price": 169,
+          "note": "飯大碗 179 元；超大碗 289 元"
+        },
+        {
+          "id": "sukiya.pork.kimchi_ginger_pork_bowl",
+          "name": "泡菜薑燒豚丼",
+          "price": 169,
+          "note": "飯大碗 179 元；超大碗 289 元"
+        }
+      ]
+    },
+    {
+      "id": "chicken",
+      "name": "雞肉丼",
+      "items": [
+        {
+          "id": "sukiya.chicken.grilled_chicken_bowl",
+          "name": "燒烤雞肉丼",
+          "price": 139,
+          "note": "飯大碗 149 元；超大碗 259 元"
+        },
+        {
+          "id": "sukiya.chicken.onion_soft_egg_grilled_chicken_bowl",
+          "name": "洋蔥溫玉燒烤雞肉丼",
+          "price": 189,
+          "note": "飯大碗 199 元；超大碗 309 元"
+        },
+        {
+          "id": "sukiya.chicken.soft_egg_grilled_chicken_bowl",
+          "name": "溫玉燒烤雞肉丼",
+          "price": 164,
+          "note": "飯大碗 174 元；超大碗 284 元"
+        },
+        {
+          "id": "sukiya.chicken.cheese_grilled_chicken_bowl",
+          "name": "起司燒烤雞肉丼",
+          "price": 169,
+          "note": "飯大碗 179 元；超大碗 289 元"
+        },
+        {
+          "id": "sukiya.chicken.mayo_soft_egg_grilled_chicken_bowl",
+          "name": "美乃溫玉燒烤雞肉丼",
+          "price": 174,
+          "note": "飯大碗 184 元；超大碗 294 元"
+        },
+        {
+          "id": "sukiya.chicken.scallion_soft_egg_grilled_chicken_bowl",
+          "name": "蔥溫玉燒烤雞肉丼",
+          "price": 189,
+          "note": "飯大碗 199 元；超大碗 309 元"
+        }
+      ]
+    },
+    {
+      "id": "duo",
+      "name": "雙拼丼",
+      "items": [
+        {
+          "id": "sukiya.duo.beef_grilled_beef_duo_bowl",
+          "name": "牛肉牛燒肉雙拼丼",
+          "price": 193,
+          "note": "飯大碗 203 元"
+        },
+        {
+          "id": "sukiya.duo.beef_grilled_chicken_duo_bowl",
+          "name": "牛肉燒烤雞肉雙拼丼",
+          "price": 193,
+          "note": "飯大碗 203 元"
+        }
+      ]
+    },
+    {
+      "id": "kids",
+      "name": "兒童餐",
+      "items": [
+        {
+          "id": "sukiya.kids.kids_beef_bowl",
+          "name": "小朋友牛丼",
+          "price": 89
+        },
+        {
+          "id": "sukiya.kids.kids_curry",
+          "name": "小朋友咖哩",
+          "price": 89
+        }
+      ]
+    },
+    {
+      "id": "single",
+      "name": "單品",
+      "items": [
+        {
+          "id": "sukiya.single.beef",
+          "name": "牛肉",
+          "price": 70
+        },
+        {
+          "id": "sukiya.single.grilled_chicken",
+          "name": "燒烤雞肉",
+          "price": 120
+        },
+        {
+          "id": "sukiya.single.ginger_pork",
+          "name": "薑燒豚",
+          "price": 110
+        },
+        {
+          "id": "sukiya.single.grilled_beef",
+          "name": "牛燒肉",
+          "price": 110
+        },
+        {
+          "id": "sukiya.single.eel",
+          "name": "鰻魚",
+          "price": 195
+        },
+        {
+          "id": "sukiya.single.grilled_mackerel",
+          "name": "烤鯖魚",
+          "price": 65
+        },
+        {
+          "id": "sukiya.single.grilled_salmon",
+          "name": "烤鮭魚",
+          "price": 65
+        },
+        {
+          "id": "sukiya.single.greens",
+          "name": "青菜",
+          "price": 45
+        },
+        {
+          "id": "sukiya.single.karaage",
+          "name": "唐揚雞",
+          "price": 40,
+          "note": "5塊 90 元；10塊 170 元"
+        },
+        {
+          "id": "sukiya.single.croquette",
+          "name": "可樂餅",
+          "price": 35,
+          "note": "2個 65 元"
+        },
+        {
+          "id": "sukiya.single.yuzu_radish",
+          "name": "柚香蘿蔔",
+          "price": 25
+        },
+        {
+          "id": "sukiya.single.fruit",
+          "name": "水果",
+          "price": 35
+        },
+        {
+          "id": "sukiya.single.miso_soup",
+          "name": "味噌湯",
+          "price": 25
+        },
+        {
+          "id": "sukiya.single.fried_garlic",
+          "name": "香炸蒜仁",
+          "price": 20
+        },
+        {
+          "id": "sukiya.single.clam_miso_soup",
+          "name": "海瓜子味噌湯",
+          "price": 60
+        },
+        {
+          "id": "sukiya.single.rice",
+          "name": "白飯",
+          "price": 30
+        }
+      ]
+    },
+    {
+      "id": "drink",
+      "name": "飲料",
+      "items": [
+        {
+          "id": "sukiya.drink.kirin_beer",
+          "name": "麒麟啤酒",
+          "price": 60
+        },
+        {
+          "id": "sukiya.drink.coca_cola",
+          "name": "可口可樂",
+          "price": 30
+        },
+        {
+          "id": "sukiya.drink.calpis",
+          "name": "可爾必思",
+          "price": 30
+        },
+        {
+          "id": "sukiya.drink.100_apple_juice",
+          "name": "100%蘋果汁",
+          "price": 15
+        },
+        {
+          "id": "sukiya.drink.100_orange_juice",
+          "name": "100%柳橙汁",
+          "price": 15
+        },
+        {
+          "id": "sukiya.drink.house_earl_grey",
+          "name": "特製伯爵茶",
+          "price": 25
+        },
+        {
+          "id": "sukiya.drink.caramel_pudding",
+          "name": "焦糖綿滑布丁",
+          "price": 40
+        }
+      ]
+    }
+  ]
+}

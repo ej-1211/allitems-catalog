@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 3,
+  "contentVersion": 1,
+  "id": "subway",
+  "name": "SUBWAY",
+  "mark": "🥖",
+  "tint": {
+    "light": "#A16207",
+    "dark": "#FDE047"
+  },
+  "priceNote": "潛艇堡與早餐價格為 6 吋單點價，12 吋另計。",
+  "categories": [
+    {
+      "id": "sub",
+      "name": "潛艇堡",
+      "items": [
+        {
+          "id": "subway.sub.veggie",
+          "name": "素食蔬菜",
+          "price": 79,
+          "note": "12吋 154 元"
+        },
+        {
+          "id": "subway.sub.ham",
+          "name": "火腿",
+          "price": 95,
+          "note": "12吋 170 元"
+        },
+        {
+          "id": "subway.sub.sliced_chicken",
+          "name": "嫩切雞肉",
+          "price": 95,
+          "note": "12吋 170 元"
+        },
+        {
+          "id": "subway.sub.meatball",
+          "name": "義大利牛肉丸",
+          "price": 95,
+          "note": "12吋 170 元"
+        },
+        {
+          "id": "subway.sub.tuna",
+          "name": "鮪魚",
+          "price": 105,
+          "note": "12吋 180 元"
+        },
+        {
+          "id": "subway.sub.roast_chicken",
+          "name": "香烤雞肉",
+          "price": 105,
+          "note": "12吋 180 元"
+        },
+        {
+          "id": "subway.sub.teriyaki_chicken",
+          "name": "照燒雞肉",
+          "price": 105,
+          "note": "12吋 180 元"
+        },
+        {
+          "id": "subway.sub.chicken_strip",
+          "name": "鮮嫩雞柳",
+          "price": 105,
+          "note": "12吋 180 元"
+        },
+        {
+          "id": "subway.sub.egg_salad_sub",
+          "name": "蛋沙拉堡",
+          "price": 105,
+          "note": "12吋 180 元"
+        },
+        {
+          "id": "subway.sub.spicy_beef_mex",
+          "name": "墨西哥辣牛",
+          "price": 105,
+          "note": "12吋 180 元"
+        },
+        {
+          "id": "subway.sub.falafel",
+          "name": "鷹嘴豆泥餅",
+          "price": 105,
+          "note": "12吋 180 元"
+        },
+        {
+          "id": "subway.sub.grilled_beef",
+          "name": "燒烤牛肉",
+          "price": 115,
+          "note": "12吋 190 元"
+        },
+        {
+          "id": "subway.sub.thick_beef",
+          "name": "厚切嫩牛",
+          "price": 115,
+          "note": "12吋 190 元"
+        },
+        {
+          "id": "subway.sub.club",
+          "name": "百味俱樂部",
+          "price": 115,
+          "note": "12吋 190 元"
+        },
+        {
+          "id": "subway.sub.italian_classic",
+          "name": "義大利經典",
+          "price": 115,
+          "note": "12吋 190 元"
+        },
+        {
+          "id": "subway.sub.cheese_melt",
+          "name": "哈燒起司總匯",
+          "price": 115,
+          "note": "12吋 190 元"
+        }
+      ]
+    },
+    {
+      "id": "breakfast",
+      "name": "早餐",
+      "items": [
+        {
+          "id": "subway.breakfast.cheese_egg",
+          "name": "起司蛋",
+          "price": 45
+        },
+        {
+          "id": "subway.breakfast.ham_cheese_egg",
+          "name": "火腿起司蛋",
+          "price": 55
+        },
+        {
+          "id": "subway.breakfast.thick_beef_cheese_egg",
+          "name": "厚切牛起司蛋",
+          "price": 65
+        },
+        {
+          "id": "subway.breakfast.bacon_cheese_egg",
+          "name": "培根起司蛋",
+          "price": 65
+        }
+      ]
+    },
+    {
+      "id": "salad",
+      "name": "沙拉",
+      "items": [
+        {
+          "id": "subway.salad.veggie_salad",
+          "name": "素食蔬菜沙拉",
+          "price": 90
+        },
+        {
+          "id": "subway.salad.ham_salad",
+          "name": "火腿沙拉",
+          "price": 129
+        },
+        {
+          "id": "subway.salad.tuna_salad",
+          "name": "鮪魚沙拉",
+          "price": 129
+        },
+        {
+          "id": "subway.salad.teriyaki_chicken_salad",
+          "name": "照燒雞肉沙拉",
+          "price": 129
+        },
+        {
+          "id": "subway.salad.chicken_strip_salad",
+          "name": "鮮嫩雞柳沙拉",
+          "price": 129
+        },
+        {
+          "id": "subway.salad.thick_beef_salad",
+          "name": "厚切嫩牛沙拉",
+          "price": 129
+        },
+        {
+          "id": "subway.salad.spicy_beef_mex_salad",
+          "name": "墨西哥辣牛沙拉",
+          "price": 129
+        },
+        {
+          "id": "subway.salad.egg_salad",
+          "name": "蛋沙拉",
+          "price": 129
+        },
+        {
+          "id": "subway.salad.falafel_salad",
+          "name": "鷹嘴豆泥餅沙拉",
+          "price": 129
+        }
+      ]
+    },
+    {
+      "id": "drink",
+      "name": "飲料與餅乾",
+      "items": [
+        {
+          "id": "subway.drink.cookie",
+          "name": "手工餅乾",
+          "price": 30
+        },
+        {
+          "id": "subway.drink.cold_drink",
+          "name": "大杯冷飲",
+          "price": 45
+        },
+        {
+          "id": "subway.drink.coffee",
+          "name": "咖啡",
+          "price": 45
+        },
+        {
+          "id": "subway.drink.juice",
+          "name": "果汁",
+          "price": 40
+        }
+      ]
+    }
+  ]
+}

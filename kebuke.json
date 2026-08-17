@@ -1,0 +1,376 @@
+{
+  "schemaVersion": 3,
+  "contentVersion": 1,
+  "id": "kebuke",
+  "name": "可不可熟成紅茶",
+  "mark": "🫖",
+  "tint": {
+    "light": "#44291A",
+    "dark": "#C4A484"
+  },
+  "priceNote": "價格為北北基門市、最小杯型（M）的價格。其他地區另有價目。",
+  "categories": [
+    {
+      "id": "tea",
+      "name": "純茶",
+      "items": [
+        {
+          "id": "kebuke.tea.aged_black_tea",
+          "name": "熟成紅茶",
+          "price": 35,
+          "note": "L 40 元"
+        },
+        {
+          "id": "kebuke.tea.lichun_black_tea",
+          "name": "麗春紅茶",
+          "price": 35,
+          "note": "L 40 元"
+        },
+        {
+          "id": "kebuke.tea.spring_bud_green",
+          "name": "春芽綠茶",
+          "price": 35,
+          "note": "L 40 元"
+        },
+        {
+          "id": "kebuke.tea.rouge_black_tea",
+          "name": "胭脂紅茶",
+          "price": 45,
+          "note": "L 50 元"
+        },
+        {
+          "id": "kebuke.tea.half_roast_oolong",
+          "name": "半熟烏龍",
+          "price": 35,
+          "note": "L 40 元"
+        },
+        {
+          "id": "kebuke.tea.camellia_light_oolong",
+          "name": "茶花輕焙烏龍",
+          "price": 45,
+          "note": "L 50 元"
+        }
+      ]
+    },
+    {
+      "id": "cold_dew",
+      "name": "冷露",
+      "items": [
+        {
+          "id": "kebuke.cold_dew.snowflake_cold_dew",
+          "name": "雪花冷露",
+          "price": 35,
+          "note": "L 40 元"
+        },
+        {
+          "id": "kebuke.cold_dew.aged_cold_dew",
+          "name": "熟成冷露",
+          "price": 40,
+          "note": "L 45 元"
+        },
+        {
+          "id": "kebuke.cold_dew.spring_bud_cold_dew",
+          "name": "春芽冷露",
+          "price": 40,
+          "note": "L 45 元"
+        },
+        {
+          "id": "kebuke.cold_dew.rouge_cold_dew",
+          "name": "胭脂冷露",
+          "price": 45,
+          "note": "L 50 元"
+        },
+        {
+          "id": "kebuke.cold_dew.lemon_cold_dew",
+          "name": "檸檬冷露",
+          "price": 50,
+          "note": "L 60 元"
+        },
+        {
+          "id": "kebuke.cold_dew.half_roast_oolong_cold_dew",
+          "name": "半熟烏龍冷露",
+          "price": 40,
+          "note": "L 45 元"
+        }
+      ]
+    },
+    {
+      "id": "handmade",
+      "name": "手作茶",
+      "items": [
+        {
+          "id": "kebuke.handmade.aged_lemon_black_tea",
+          "name": "熟檸紅茶",
+          "price": 45,
+          "note": "L 55 元"
+        },
+        {
+          "id": "kebuke.handmade.spring_lemon_green_tea",
+          "name": "春檸綠茶",
+          "price": 45,
+          "note": "L 55 元"
+        },
+        {
+          "id": "kebuke.handmade.spring_plum_iced_tea",
+          "name": "春梅冰茶",
+          "price": 50,
+          "note": "L 60 元"
+        },
+        {
+          "id": "kebuke.handmade.toffee_aged",
+          "name": "太妃熟成",
+          "price": 50,
+          "note": "L 55 元"
+        },
+        {
+          "id": "kebuke.handmade.golden_honey_aged",
+          "name": "金蜜熟成",
+          "price": 53,
+          "note": "L 63 元"
+        },
+        {
+          "id": "kebuke.handmade.rouge_yakult",
+          "name": "胭脂多多",
+          "price": 50,
+          "note": "L 60 元"
+        },
+        {
+          "id": "kebuke.handmade.camellia_oolong_plum",
+          "name": "茶花烏龍梅",
+          "price": 50,
+          "note": "L 60 元"
+        },
+        {
+          "id": "kebuke.handmade.camellia_oolong_yakult",
+          "name": "茶花烏龍多多",
+          "price": 50,
+          "note": "L 60 元"
+        }
+      ]
+    },
+    {
+      "id": "gunai",
+      "name": "穀奈（無咖啡因）",
+      "items": [
+        {
+          "id": "kebuke.gunai.light_gunai_tea",
+          "name": "輕纖穀奈茶",
+          "price": 40,
+          "note": "L 50 元"
+        },
+        {
+          "id": "kebuke.gunai.gunai_cold_dew",
+          "name": "穀奈冷露",
+          "price": 45,
+          "note": "L 55 元"
+        },
+        {
+          "id": "kebuke.gunai.gunai_au_lait",
+          "name": "穀奈歐蕾",
+          "price": 59,
+          "note": "L 69 元"
+        },
+        {
+          "id": "kebuke.gunai.golden_honey_lemon",
+          "name": "金蜜檸檬",
+          "price": 53,
+          "note": "L 63 元"
+        }
+      ]
+    },
+    {
+      "id": "au_lait",
+      "name": "歐蕾",
+      "items": [
+        {
+          "id": "kebuke.au_lait.aged_au_lait",
+          "name": "熟成歐蕾",
+          "price": 55,
+          "note": "L 65 元"
+        },
+        {
+          "id": "kebuke.au_lait.cold_dew_au_lait",
+          "name": "冷露歐蕾",
+          "price": 55,
+          "note": "L 65 元"
+        },
+        {
+          "id": "kebuke.au_lait.golden_honey_au_lait",
+          "name": "金蜜歐蕾",
+          "price": 60,
+          "note": "L 70 元"
+        },
+        {
+          "id": "kebuke.au_lait.rouge_au_lait",
+          "name": "胭脂歐蕾",
+          "price": 59,
+          "note": "L 69 元"
+        },
+        {
+          "id": "kebuke.au_lait.white_pearl_au_lait",
+          "name": "白玉歐蕾",
+          "price": 60,
+          "note": "L 70 元"
+        },
+        {
+          "id": "kebuke.au_lait.yuanyang_au_lait",
+          "name": "鴛鴦歐蕾",
+          "price": 60,
+          "note": "L 70 元"
+        },
+        {
+          "id": "kebuke.au_lait.aged_hazelnut_au_lait",
+          "name": "熟成榛果歐蕾",
+          "price": 60,
+          "note": "L 70 元"
+        },
+        {
+          "id": "kebuke.au_lait.black_pearl_yuanyang_au_lait",
+          "name": "墨玉鴛鴦歐蕾",
+          "price": 70,
+          "note": "L 80 元"
+        },
+        {
+          "id": "kebuke.au_lait.half_roast_oolong_thick_milk",
+          "name": "半熟烏龍厚乳",
+          "price": 59,
+          "note": "L 69 元"
+        },
+        {
+          "id": "kebuke.au_lait.camellia_oolong_thick_milk",
+          "name": "茶花烏龍厚乳",
+          "price": 59,
+          "note": "L 69 元"
+        }
+      ]
+    },
+    {
+      "id": "milk_tea",
+      "name": "奶茶",
+      "items": [
+        {
+          "id": "kebuke.milk_tea.aged_milk_tea",
+          "name": "熟成奶茶",
+          "price": 45,
+          "note": "L 55 元"
+        },
+        {
+          "id": "kebuke.milk_tea.spring_bud_milk_tea",
+          "name": "春芽奶茶",
+          "price": 45,
+          "note": "L 55 元"
+        },
+        {
+          "id": "kebuke.milk_tea.rouge_milk_tea",
+          "name": "胭脂奶茶",
+          "price": 50,
+          "note": "L 60 元"
+        },
+        {
+          "id": "kebuke.milk_tea.white_pearl_milk_tea",
+          "name": "白玉奶茶",
+          "price": 50,
+          "note": "L 60 元"
+        }
+      ]
+    },
+    {
+      "id": "ice_cream",
+      "name": "冰淇淋",
+      "items": [
+        {
+          "id": "kebuke.ice_cream.snow_hidden_black_tea",
+          "name": "雪藏紅茶",
+          "price": 60
+        },
+        {
+          "id": "kebuke.ice_cream.snow_hidden_milk_tea",
+          "name": "雪藏奶茶",
+          "price": 69
+        }
+      ]
+    },
+    {
+      "id": "seasonal",
+      "name": "季節限定（蘋果珍寶）",
+      "items": [
+        {
+          "id": "kebuke.seasonal.apple_lichun",
+          "name": "蘋果麗春",
+          "price": 59,
+          "note": "L 69 元",
+          "availability": {
+            "kind": "limited"
+          }
+        },
+        {
+          "id": "kebuke.seasonal.apple_spring_bud",
+          "name": "蘋果春芽",
+          "price": 59,
+          "note": "L 69 元",
+          "availability": {
+            "kind": "limited"
+          }
+        },
+        {
+          "id": "kebuke.seasonal.apple_camellia_oolong",
+          "name": "蘋果茶花烏龍",
+          "price": 65,
+          "note": "L 75 元",
+          "availability": {
+            "kind": "limited"
+          }
+        },
+        {
+          "id": "kebuke.seasonal.apple_spring_bud_thick_milk",
+          "name": "蘋果春芽厚乳",
+          "price": 69,
+          "availability": {
+            "kind": "limited"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kinji",
+      "name": "金蒔燒輕食",
+      "items": [
+        {
+          "id": "kebuke.kinji.kinji_savoury_mix",
+          "name": "金蒔鹹綜合",
+          "price": 75
+        },
+        {
+          "id": "kebuke.kinji.kinji_sweet_mix",
+          "name": "金蒔甜綜合",
+          "price": 75
+        },
+        {
+          "id": "kebuke.kinji.classic_original",
+          "name": "經典原味",
+          "price": 55
+        },
+        {
+          "id": "kebuke.kinji.kinji_milk_crumble",
+          "name": "金蒔奶酥",
+          "price": 75
+        },
+        {
+          "id": "kebuke.kinji.rich_chocolate",
+          "name": "濃巧克力",
+          "price": 65
+        },
+        {
+          "id": "kebuke.kinji.peanut_mochi",
+          "name": "花生麻糬",
+          "price": 80
+        },
+        {
+          "id": "kebuke.kinji.cheese_ham",
+          "name": "起司火腿",
+          "price": 65
+        }
+      ]
+    }
+  ]
+}

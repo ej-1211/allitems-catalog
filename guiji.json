@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 3,
+  "contentVersion": 1,
+  "id": "guiji",
+  "name": "龜記茗品",
+  "mark": "🐢",
+  "tint": {
+    "light": "#3F6212",
+    "dark": "#A3E635"
+  },
+  "priceNote": "價格為單點價。",
+  "categories": [
+    {
+      "id": "tea",
+      "name": "醇萃茶",
+      "items": [
+        {
+          "id": "guiji.tea.premium_black_tea",
+          "name": "極品紅茶",
+          "price": 40
+        },
+        {
+          "id": "guiji.tea.jade_green_tea",
+          "name": "翡翠綠茶",
+          "price": 40
+        },
+        {
+          "id": "guiji.tea.four_season_green",
+          "name": "青四季春",
+          "price": 40
+        },
+        {
+          "id": "guiji.tea.sanyun_red",
+          "name": "三韻紅萱",
+          "price": 45
+        },
+        {
+          "id": "guiji.tea.tea_king_33",
+          "name": "三十三茶王",
+          "price": 45
+        },
+        {
+          "id": "guiji.tea.puer_silver_tea",
+          "name": "碎銀普洱茶",
+          "price": 45
+        },
+        {
+          "id": "guiji.tea.foam_oolong",
+          "name": "花沫烏龍",
+          "price": 45
+        }
+      ]
+    },
+    {
+      "id": "local",
+      "name": "鄉韻",
+      "items": [
+        {
+          "id": "guiji.local.soy_milk_black_tea",
+          "name": "豆漿紅茶",
+          "price": 45
+        },
+        {
+          "id": "guiji.local.winter_melon_tea_king",
+          "name": "冬瓜茶王",
+          "price": 55
+        },
+        {
+          "id": "guiji.local.ayuan_starfruit_black_tea",
+          "name": "阿源楊桃紅茶",
+          "price": 55
+        },
+        {
+          "id": "guiji.local.ayuan_starfruit_green_tea",
+          "name": "阿源楊桃綠茶",
+          "price": 55
+        },
+        {
+          "id": "guiji.local.winter_melon_lemon_special",
+          "name": "冬瓜雷夢",
+          "price": 60
+        },
+        {
+          "id": "guiji.local.starfruit_lemon_special",
+          "name": "楊桃雷夢",
+          "price": 60
+        },
+        {
+          "id": "guiji.local.sugarcane_four_season",
+          "name": "甘蔗四季春",
+          "price": 65
+        }
+      ]
+    },
+    {
+      "id": "honey",
+      "name": "蜜蜂工坊",
+      "items": [
+        {
+          "id": "guiji.honey.honey_green_tea",
+          "name": "蜂蜜綠茶",
+          "price": 55
+        },
+        {
+          "id": "guiji.honey.honey_four_season",
+          "name": "蜂蜜四季春",
+          "price": 55
+        },
+        {
+          "id": "guiji.honey.honey_foam_oolong",
+          "name": "蜂蜜花沫烏龍",
+          "price": 60
+        },
+        {
+          "id": "guiji.honey.honey_lemon_special",
+          "name": "蜂蜜雷夢",
+          "price": 65
+        },
+        {
+          "id": "guiji.honey.lemon_special_aloe_honey",
+          "name": "雷夢蘆薈蜜",
+          "price": 75
+        }
+      ]
+    },
+    {
+      "id": "fruit_tea",
+      "name": "果茶",
+      "items": [
+        {
+          "id": "guiji.fruit_tea.passion_fruit_black_tea",
+          "name": "百香紅茶",
+          "price": 55
+        },
+        {
+          "id": "guiji.fruit_tea.passion_fruit_green_tea",
+          "name": "百香綠茶",
+          "price": 55
+        },
+        {
+          "id": "guiji.fruit_tea.jade_lemon_special",
+          "name": "翡翠雷夢",
+          "price": 60
+        },
+        {
+          "id": "guiji.fruit_tea.orange_jade",
+          "name": "柳丁翡翠",
+          "price": 60
+        },
+        {
+          "id": "guiji.fruit_tea.apple_red_xuan",
+          "name": "蘋果紅萱",
+          "price": 60
+        },
+        {
+          "id": "guiji.fruit_tea.peach_oolong",
+          "name": "蜜桃烏龍",
+          "price": 70
+        },
+        {
+          "id": "guiji.fruit_tea.red_pomelo_jade",
+          "name": "紅柚翡翠",
+          "price": 75
+        }
+      ]
+    },
+    {
+      "id": "grape",
+      "name": "紫葡",
+      "items": [
+        {
+          "id": "guiji.grape.grape_sanyun_red",
+          "name": "紫葡三韻紅",
+          "price": 60
+        },
+        {
+          "id": "guiji.grape.grape_aloe_spring",
+          "name": "紫葡蘆薈春",
+          "price": 75
+        },
+        {
+          "id": "guiji.grape.red_pomelo_grape_purple_jelly_drink",
+          "name": "紅柚紫葡凍飲",
+          "price": 80
+        }
+      ]
+    },
+    {
+      "id": "milk_tea",
+      "name": "奶茶",
+      "items": [
+        {
+          "id": "guiji.milk_tea.premium_milk_tea",
+          "name": "極品奶茶",
+          "price": 55
+        },
+        {
+          "id": "guiji.milk_tea.jade_milk_tea",
+          "name": "翡翠奶茶",
+          "price": 55
+        },
+        {
+          "id": "guiji.milk_tea.tea_king_milk_tea",
+          "name": "茶王奶茶",
+          "price": 60
+        },
+        {
+          "id": "guiji.milk_tea.puer_silver_milk_tea",
+          "name": "碎銀普洱奶茶",
+          "price": 60
+        },
+        {
+          "id": "guiji.milk_tea.pearl_milk_tea",
+          "name": "珍珠奶茶",
+          "price": 65
+        },
+        {
+          "id": "guiji.milk_tea.honey_milk_tea",
+          "name": "蜂蜜奶茶",
+          "price": 65
+        }
+      ]
+    },
+    {
+      "id": "fresh_milk",
+      "name": "小農鮮乳坊",
+      "items": [
+        {
+          "id": "guiji.fresh_milk.premium_fresh_milk_tea",
+          "name": "極品鮮乳茶",
+          "price": 70
+        },
+        {
+          "id": "guiji.fresh_milk.jade_fresh_milk_tea",
+          "name": "翡翠鮮乳茶",
+          "price": 70
+        },
+        {
+          "id": "guiji.fresh_milk.guiji_rich_milk_tea",
+          "name": "龜記濃乳茶",
+          "price": 70
+        },
+        {
+          "id": "guiji.fresh_milk.winter_melon_fresh_milk",
+          "name": "冬瓜鮮乳",
+          "price": 70
+        },
+        {
+          "id": "guiji.fresh_milk.tea_king_fresh_milk_tea",
+          "name": "茶王鮮乳茶",
+          "price": 75
+        },
+        {
+          "id": "guiji.fresh_milk.chocolate_fresh_milk_tea",
+          "name": "巧克鮮乳茶",
+          "price": 75
+        },
+        {
+          "id": "guiji.fresh_milk.puer_silver_fresh_milk",
+          "name": "碎銀普洱鮮乳",
+          "price": 75
+        }
+      ]
+    }
+  ]
+}
