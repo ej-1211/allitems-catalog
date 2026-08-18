@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "contentVersion": 1,
+  "contentVersion": 2,
   "id": "milksha",
   "name": "迷客夏",
   "mark": "🥤",
@@ -147,7 +147,12 @@
         },
         {
           "id": "milksha.caffeine_free.winter_melon_lemon",
-          "name": "冬瓜檸檬/麥茶",
+          "name": "冬瓜檸檬",
+          "price": 55
+        },
+        {
+          "id": "milksha.caffeine_free.winter_melon_barley",
+          "name": "冬瓜麥茶",
           "price": 55
         }
       ]
@@ -210,7 +215,13 @@
         },
         {
           "id": "milksha.fruit_tea.orange_green_tea",
-          "name": "柳丁綠茶/青茶",
+          "name": "柳丁綠茶",
+          "price": 70,
+          "note": "中南 65 元"
+        },
+        {
+          "id": "milksha.fruit_tea.orange_green_oolong",
+          "name": "柳丁青茶",
           "price": 70,
           "note": "中南 65 元"
         },
@@ -247,7 +258,12 @@
         },
         {
           "id": "milksha.fruit_tea.cold_brew_orange",
-          "name": "冰萃柳丁/檸檬",
+          "name": "冰萃柳丁",
+          "price": 65
+        },
+        {
+          "id": "milksha.fruit_tea.cold_brew_lemon",
+          "name": "冰萃檸檬",
           "price": 65
         }
       ]
@@ -293,8 +309,14 @@
           "note": "L北 65 元；M中南 50 元；L中南 60 元"
         },
         {
-          "id": "milksha.milk_tea.pearl_black_tea_latte",
-          "name": "珍珠紅茶拿鐵(伯爵/大正)",
+          "id": "milksha.milk_tea.pearl_earl_grey_latte",
+          "name": "珍珠伯爵紅茶拿鐵",
+          "price": 65,
+          "note": "L北 75 元；M中南 60 元；L中南 70 元"
+        },
+        {
+          "id": "milksha.milk_tea.pearl_taisho_black_tea_latte",
+          "name": "珍珠大正紅茶拿鐵",
           "price": 65,
           "note": "L北 75 元；M中南 60 元；L中南 70 元"
         },

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "contentVersion": 1,
+  "contentVersion": 2,
   "id": "fifty_lan",
   "name": "50嵐",
   "mark": "🧋",
@@ -78,16 +78,24 @@
           "price": 75
         },
         {
-          "id": "fifty_lan.tea.coconut_tea",
-          "name": "椰果紅/綠",
+          "id": "fifty_lan.tea.coconut_black",
+          "name": "椰果紅",
           "price": 45,
           "regions": [
             "central"
           ]
         },
         {
-          "id": "fifty_lan.tea.light_lemon_tea",
-          "name": "微檸檬紅/青",
+          "id": "fifty_lan.tea.coconut_green",
+          "name": "椰果綠",
+          "price": 45,
+          "regions": [
+            "central"
+          ]
+        },
+        {
+          "id": "fifty_lan.tea.light_lemon_black",
+          "name": "微檸檬紅",
           "price": 45,
           "regions": [
             "central",
@@ -96,8 +104,34 @@
           ]
         },
         {
-          "id": "fifty_lan.tea.oat_tea",
-          "name": "燕麥紅/綠/青",
+          "id": "fifty_lan.tea.light_lemon_four_season",
+          "name": "微檸檬青",
+          "price": 45,
+          "regions": [
+            "central",
+            "tainan",
+            "kaoping"
+          ]
+        },
+        {
+          "id": "fifty_lan.tea.oat_black",
+          "name": "燕麥紅",
+          "price": 45,
+          "regions": [
+            "central"
+          ]
+        },
+        {
+          "id": "fifty_lan.tea.oat_green",
+          "name": "燕麥綠",
+          "price": 45,
+          "regions": [
+            "central"
+          ]
+        },
+        {
+          "id": "fifty_lan.tea.oat_four_season",
+          "name": "燕麥青",
           "price": 45,
           "regions": [
             "central"
@@ -119,8 +153,23 @@
           ]
         },
         {
-          "id": "fifty_lan.texture.boba_tea",
-          "name": "波霸紅/綠/青/烏",
+          "id": "fifty_lan.texture.boba_black",
+          "name": "波霸紅",
+          "price": 60
+        },
+        {
+          "id": "fifty_lan.texture.boba_green",
+          "name": "波霸綠",
+          "price": 60
+        },
+        {
+          "id": "fifty_lan.texture.boba_four_season",
+          "name": "波霸青",
+          "price": 60
+        },
+        {
+          "id": "fifty_lan.texture.boba_oolong",
+          "name": "波霸烏",
           "price": 60
         },
         {
@@ -145,8 +194,32 @@
           ]
         },
         {
-          "id": "fifty_lan.texture.pearl_tea",
-          "name": "珍珠紅/綠/青/烏",
+          "id": "fifty_lan.texture.pearl_black",
+          "name": "珍珠紅",
+          "price": 50,
+          "regions": [
+            "north"
+          ]
+        },
+        {
+          "id": "fifty_lan.texture.pearl_green",
+          "name": "珍珠綠",
+          "price": 50,
+          "regions": [
+            "north"
+          ]
+        },
+        {
+          "id": "fifty_lan.texture.pearl_four_season",
+          "name": "珍珠青",
+          "price": 50,
+          "regions": [
+            "north"
+          ]
+        },
+        {
+          "id": "fifty_lan.texture.pearl_oolong",
+          "name": "珍珠烏",
           "price": 50,
           "regions": [
             "north"
@@ -177,7 +250,7 @@
         },
         {
           "id": "fifty_lan.texture.pudding_milk_tea",
-          "name": "布丁奶茶/奶綠",
+          "name": "布丁奶茶",
           "price": 75,
           "regions": [
             "north",
@@ -185,8 +258,41 @@
           ]
         },
         {
-          "id": "fifty_lan.texture.pudding_tea",
-          "name": "布丁紅/綠/青/烏",
+          "id": "fifty_lan.texture.pudding_milk_green",
+          "name": "布丁奶綠",
+          "price": 75,
+          "regions": [
+            "north",
+            "central"
+          ]
+        },
+        {
+          "id": "fifty_lan.texture.pudding_black",
+          "name": "布丁紅",
+          "price": 60,
+          "regions": [
+            "north"
+          ]
+        },
+        {
+          "id": "fifty_lan.texture.pudding_green",
+          "name": "布丁綠",
+          "price": 60,
+          "regions": [
+            "north"
+          ]
+        },
+        {
+          "id": "fifty_lan.texture.pudding_four_season",
+          "name": "布丁青",
+          "price": 60,
+          "regions": [
+            "north"
+          ]
+        },
+        {
+          "id": "fifty_lan.texture.pudding_oolong",
+          "name": "布丁烏",
           "price": 60,
           "regions": [
             "north"
@@ -489,8 +595,17 @@
       "name": "季節限定",
       "items": [
         {
-          "id": "fifty_lan.seasonal.honey_tea",
-          "name": "蜂蜜紅/綠",
+          "id": "fifty_lan.seasonal.honey_black",
+          "name": "蜂蜜紅",
+          "price": 55,
+          "regions": [
+            "central"
+          ],
+          "availability": "limited"
+        },
+        {
+          "id": "fifty_lan.seasonal.honey_green",
+          "name": "蜂蜜綠",
           "price": 55,
           "regions": [
             "central"

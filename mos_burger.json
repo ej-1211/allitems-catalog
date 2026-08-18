@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "contentVersion": 1,
+  "contentVersion": 2,
   "id": "mos_burger",
   "name": "摩斯漢堡",
   "mark": "🍔",
@@ -298,13 +298,25 @@
         },
         {
           "id": "mos_burger.main.mos_burger",
-          "name": "摩斯漢堡(原味/辣味)",
+          "name": "摩斯漢堡",
+          "price": 70,
+          "note": "雞塊套餐 170 元"
+        },
+        {
+          "id": "mos_burger.main.mos_burger_spicy",
+          "name": "摩斯漢堡(辣味)",
           "price": 70,
           "note": "雞塊套餐 170 元"
         },
         {
           "id": "mos_burger.main.mos_cheeseburger",
-          "name": "摩斯吉士漢堡(原味/辣味)",
+          "name": "摩斯吉士漢堡",
+          "price": 75,
+          "note": "雞塊套餐 175 元"
+        },
+        {
+          "id": "mos_burger.main.mos_cheeseburger_spicy",
+          "name": "摩斯吉士漢堡(辣味)",
           "price": 75,
           "note": "雞塊套餐 175 元"
         },

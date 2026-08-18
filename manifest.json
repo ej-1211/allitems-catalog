@@ -8,17 +8,17 @@
     },
     {
       "id": "mcdonalds",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "path": "mcdonalds.json"
     },
     {
       "id": "fifty_lan",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "path": "fifty_lan.json"
     },
     {
       "id": "mos_burger",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "path": "mos_burger.json"
     },
     {
@@ -28,17 +28,17 @@
     },
     {
       "id": "louisa",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "path": "louisa.json"
     },
     {
       "id": "milksha",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "path": "milksha.json"
     },
     {
       "id": "chingshin",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "path": "chingshin.json"
     },
     {

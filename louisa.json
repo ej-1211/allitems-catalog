@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "contentVersion": 1,
+  "contentVersion": 2,
   "id": "louisa",
   "name": "路易莎",
   "mark": "🥐",
@@ -1004,8 +1004,13 @@
           "price": 70
         },
         {
-          "id": "louisa.cake.quiche",
-          "name": "法式鹹派(培根/三杯杏鮑菇)",
+          "id": "louisa.cake.quiche_bacon",
+          "name": "法式鹹派(培根)",
+          "price": 75
+        },
+        {
+          "id": "louisa.cake.quiche_mushroom",
+          "name": "法式鹹派(三杯杏鮑菇)",
           "price": 75
         },
         {

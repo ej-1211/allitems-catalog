@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "contentVersion": 1,
+  "contentVersion": 2,
   "id": "mcdonalds",
   "name": "麥當勞",
   "mark": "🍟",
@@ -265,8 +265,13 @@
           "price": 50
         },
         {
-          "id": "mcdonalds.side.red_bean_apple_pie",
-          "name": "紅豆派/蘋果派",
+          "id": "mcdonalds.side.red_bean_pie",
+          "name": "紅豆派",
+          "price": 41
+        },
+        {
+          "id": "mcdonalds.side.apple_pie",
+          "name": "蘋果派",
           "price": 41
         },
         {
@@ -373,8 +378,18 @@
           "price": 41
         },
         {
-          "id": "mcdonalds.drink.coke_zero_sprite",
-          "name": "可口可樂/可樂zero/雪碧",
+          "id": "mcdonalds.drink.coke",
+          "name": "可口可樂",
+          "price": 38
+        },
+        {
+          "id": "mcdonalds.drink.coke_zero",
+          "name": "可樂zero",
+          "price": 38
+        },
+        {
+          "id": "mcdonalds.drink.sprite",
+          "name": "雪碧",
           "price": 38
         },
         {

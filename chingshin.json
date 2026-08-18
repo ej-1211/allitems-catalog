@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "contentVersion": 1,
+  "contentVersion": 2,
   "id": "chingshin",
   "name": "清心福全",
   "mark": "🍵",
@@ -99,7 +99,13 @@
         },
         {
           "id": "chingshin.milk_tea.pearl_milk_tea",
-          "name": "珍珠奶茶/波霸奶茶",
+          "name": "珍珠奶茶",
+          "price": 45,
+          "note": "大 55 元"
+        },
+        {
+          "id": "chingshin.milk_tea.boba_milk_tea",
+          "name": "波霸奶茶",
           "price": 45,
           "note": "大 55 元"
         },
