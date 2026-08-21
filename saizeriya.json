@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "contentVersion": 1,
+  "contentVersion": 2,
   "id": "saizeriya",
   "name": "薩莉亞",
   "mark": "🍝",
@@ -203,6 +203,14 @@
           "id": "saizeriya.pizza.mini_basil",
           "name": "迷你九層塔瑪格麗特披薩（6 吋）",
           "price": 80
+        },
+        {
+          "id": "saizeriya.pizza.lemon_whitebait",
+          "name": "檸檬吻仔魚披薩",
+          "price": 150,
+          "availability": {
+            "kind": "limited"
+          }
         }
       ]
     },
@@ -264,6 +272,14 @@
           "id": "saizeriya.pasta.milanese_ragu",
           "name": "米蘭風肉醬蘑菇麵",
           "price": 130
+        },
+        {
+          "id": "saizeriya.pasta.lemon_cream_whitebait",
+          "name": "檸檬奶油吻仔魚麵",
+          "price": 130,
+          "availability": {
+            "kind": "limited"
+          }
         }
       ]
     },

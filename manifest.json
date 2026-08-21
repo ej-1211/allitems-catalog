@@ -3,7 +3,7 @@
   "seeds": [
     {
       "id": "saizeriya",
-      "contentVersion": 1,
+      "contentVersion": 2,
       "path": "saizeriya.json"
     },
     {
